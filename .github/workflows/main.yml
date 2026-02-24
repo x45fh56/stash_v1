@@ -29,14 +29,23 @@ jobs:
       - name: Run stash_claude.py
         run: python stash_claude.py
 
+      - name: Run stash_claude_v2.py
+        run: python stash_claude_v2.py
+        
       - name: Run stash_gemini.py
         run: python stash_gemini.py
 
+      - name: Run stash_gemini_v2.py
+        run: python stash_gemini_v2.py
+        
       - name: Run stash_gpt.py
         run: python stash_gpt.py
 
       - name: Run stash_grok.py
         run: python stash_grok.py
+        
+      - name: Run stash_grok_v2.py
+        run: python stash_grok_v2.py
 
      
       - name: Commit generated YAML files
