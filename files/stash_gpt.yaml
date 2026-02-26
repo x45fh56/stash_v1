@@ -28,9 +28,60 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 109.172.55.232
-  port: 13760
-  uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
+  server: dd.openaccessnode.com
+  port: 2197
+  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
+  network: tcp
+  udp: true
+  tls: true
+  servername: api.push.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
+    short-id: a62d513cd709744a
+- name: configraygan
+  type: vless
+  server: spb.scroogethebest.com
+  port: 443
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  network: tcp
+  udp: true
+  tls: true
+  servername: spb.scroogethebest.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: C3hc32Cknec2shasKJIH2DYVb7Fyu64RF9v71L3ipEg
+    short-id: 9c2378562188c3cb
+- name: dingyue_center
+  type: vless
+  server: 38.95.232.247
+  port: 24683
+  uuid: 86469f66-055e-41ea-a648-33e30c6ac750
+  network: tcp
+  udp: true
+  tls: true
+  servername: mensura.cdn-apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: caKZX80LQ7KPROX0Sv5rMwmQmXVZjgdmLIBHuL4DIwQ
+    short-id: 6ba85179e30d4fc2
+- name: new_mtproxi2
+  type: vless
+  server: 81.19.141.190
+  port: 51529
+  uuid: ad2879c1-7f77-4a4c-ba50-c24dd5ceffa4
   network: tcp
   udp: true
   tls: true
@@ -41,96 +92,45 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
-    short-id: 58a8787420b6a153
-- name: configraygan
-  type: vless
-  server: 144.31.24.84
-  port: 443
-  uuid: 1d6705da-0790-49bf-bf47-b166d2e945cf
-  network: tcp
-  udp: true
-  tls: true
-  servername: st.okcdn.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
-    short-id: 39a1eb3ec417cd66
-- name: dingyue_center
-  type: vless
-  server: pq.vmjp2.yydjc.top
-  port: 443
-  uuid: c41313a3-68f9-4569-982e-4a2306665f71
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdn-dynmedia-1.microsoft.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
-    short-id: b0fbe0f0
-- name: new_mtproxi2
-  type: vless
-  server: 188.132.183.140
-  port: 443
-  uuid: 213325c6-ef4b-4cdb-850b-24a06f2865c8
-  network: tcp
-  udp: true
-  tls: true
-  servername: 2gis.kz
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: tQshkBu8_I2WDLqhS0kssD7F0uKl6vkvK9egXVXjsQE
-    short-id: 63d80d5199a2bc
+    public-key: 9smFk5QZXifHGrtwDwhbROsLBh179bExNWABnvUCvSw
+    short-id: b77a294515ecc200
 - name: oneclickvpnkeys
   type: vless
-  server: logggg.nammknammknammknammknammkb2.ir
+  server: fi.appav.online
   port: 443
-  uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
+  uuid: c501c66b-c6c2-456b-b604-80393b83d67f
   network: tcp
   udp: true
   tls: true
-  servername: logggg.nammknammknammknammknammkb2.ir
+  servername: st.ozone.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
-    short-id: b3d76d
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
 - name: tv2rayrr
   type: vless
-  server: 47.245.38.111
+  server: fi.srv.happvpn.com
   port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   network: tcp
   udp: true
   tls: true
-  servername: www.autodesk.com
+  servername: cdnjs.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
-    short-id: 860705e716cbe6ed
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
 - name: v2ray_extractor
   type: vless
-  server: 51.158.206.98
+  server: 51.158.206.96
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -147,38 +147,38 @@ proxies:
     short-id: '01'
 - name: vpnbaz
   type: vless
-  server: mtn-tm1.ip-venzo.com
-  port: 6870
-  uuid: 4bc83a84-d4d2-43f8-8ee4-45b08a190162
+  server: 103.231.75.185
+  port: 443
+  uuid: c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb
   network: tcp
   udp: true
   tls: true
-  servername: ip-venzo.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: sGkQutu-jNzzINkigXEr4zm6us4c5KvT6FRSOKEliyY
-    short-id: a3ec090d35b64be8
-- name: wiki_tajrobe
-  type: vless
-  server: 37.139.42.234
-  port: 4443
-  uuid: 9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1
-  network: tcp
-  udp: true
-  tls: true
-  servername: yandex.ru
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: -kDgSQgouE56cqDIDwgCco1LNQ-8q61WllL5egDI0yI
-    short-id: '6670'
+    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
+    short-id: 0bce
+- name: wiki_tajrobe
+  type: vless
+  server: maxa06.gaterserver.ir
+  port: 2096
+  uuid: 42f4be04-31d7-477d-9549-c1f79c6b9ee0
+  network: tcp
+  udp: true
+  tls: true
+  servername: play.google.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
