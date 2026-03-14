@@ -28,21 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 57.129.53.181
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 4.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
   network: tcp
   udp: true
   tls: true
-  servername: fuck.rkn
+  servername: icloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -79,26 +79,60 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 94.139.251.91
-  port: 7443
-  uuid: 9b4a17a2-6845-4924-a81a-20b7591ba9f9
+  server: 144.31.214.24
+  port: 443
+  uuid: 9df02c3b-2f4c-45ff-8300-4c280b207301
   network: tcp
   udp: true
   tls: true
-  servername: chat.deepseek.com
+  servername: fr4.darknet.run
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: d82fb387
+    public-key: 6HaGh1HqaHwxHL7-y-Xpi1vj1lsIM_b-jdY7iG5eOFA
+    short-id: a1b223d4
+- name: persianvpnhub
+  type: vless
+  server: ma-1.vpnd.io
+  port: 12574
+  uuid: 17cdeaa0-d9f0-443d-8f14-80cef1de5529
+  network: tcp
+  udp: true
+  tls: true
+  servername: amazon.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: _rRqFVyD5EgBQt9YWutbSjidLJEjoLcxBejrytypBDU
+    short-id: 7fa5d084
 - name: tv2rayrr
   type: vless
-  server: 178.236.16.98
-  port: 35728
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  server: 143.20.79.11
+  port: 443
+  uuid: 3a505568-fd7b-4bd8-8a57-ee26e6953b6f
+  network: tcp
+  udp: true
+  tls: true
+  servername: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw
+    short-id: 491db313
+- name: v2ray_extractor
+  type: vless
+  server: 140.238.100.35
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
   network: tcp
   udp: true
   tls: true
@@ -109,42 +143,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-- name: v2ray_extractor
-  type: vless
-  server: 85.192.48.151
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  network: tcp
-  udp: true
-  tls: true
-  servername: icloud.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-- name: vpnbaz
-  type: vless
-  server: 1.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  network: tcp
-  udp: true
-  tls: true
-  servername: icloud.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
 - name: wiki_tajrobe
   type: vless
   server: sw.truetunnel.xyz
@@ -173,9 +173,9 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
-  - vpnbaz
   - wiki_tajrobe
 - name: SELECT
   type: select
@@ -185,9 +185,9 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
-  - vpnbaz
   - wiki_tajrobe
   - DIRECT
 rule-providers:
