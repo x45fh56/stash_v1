@@ -28,9 +28,26 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 144.31.17.80
-  port: 30677
-  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
+  server: 185.162.11.223
+  port: 443
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
+  network: tcp
+  udp: true
+  tls: true
+  servername: sun6-21.userapi.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
+- name: configraygan
+  type: vless
+  server: 89.125.78.120
+  port: 443
+  uuid: 1babf197-af69-406e-aae2-83c411ae979f
   network: tcp
   udp: true
   tls: true
@@ -41,8 +58,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
-    short-id: '47595474'
+    public-key: 5vKf_Ni653huMNUl6V34EJxEGPCC0hZ6rFCPwu2Z300
+    short-id: 3ef8cdbc
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -79,55 +96,55 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: de.tconnect.services
+  server: 89.125.78.120
   port: 443
-  uuid: d64db0d3-30e7-4876-9f05-2472f40b7d93
+  uuid: 1babf197-af69-406e-aae2-83c411ae979f
   network: tcp
   udp: true
   tls: true
-  servername: stackoverflow.com
+  servername: google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: dioB_kXykvJQK_HocR5Z3TnXJNabVhYoRX2TVsfsK0Q
-    short-id: 71e87186710e710e
+    public-key: 5vKf_Ni653huMNUl6V34EJxEGPCC0hZ6rFCPwu2Z300
+    short-id: 3ef8cdbc
 - name: tv2rayrr
   type: vless
-  server: 31.6.1.187
-  port: 25607
-  uuid: c8451b58-6337-4294-ba28-1a33731331a1
+  server: 40.233.83.110
+  port: 26113
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   network: tcp
   udp: true
   tls: true
-  servername: store.steampowered.com
-  client-fingerprint: chrome
+  servername: www.yahoo.com
+  client-fingerprint: random
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
-    short-id: '84'
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
 - name: v2ray_extractor
   type: vless
-  server: 140.238.100.35
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  server: 104.167.197.59
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
   network: tcp
   udp: true
   tls: true
-  servername: yahoo.com
+  servername: icloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -136,6 +153,7 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -146,6 +164,7 @@ proxy-groups:
   proxies:
   - AUTO-IRAN
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
