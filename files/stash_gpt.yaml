@@ -28,38 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: download.lastilhame.monster
+  server: 185.162.11.223
   port: 443
-  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
   network: tcp
   udp: true
   tls: true
-  servername: www.techradar.com
+  servername: sun6-21.userapi.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU
-    short-id: faa900664bad
-- name: configraygan
-  type: vless
-  server: 57.129.53.181
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -96,43 +79,26 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: cz.unit-digital.com
-  port: 443
-  uuid: 53e6a6e2-3c4b-40b6-b2d2-5b3a1509011b
+  server: 57.129.53.180
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   udp: true
   tls: true
-  servername: www.oracle.com
+  servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: BCCiE78UurkweOYuNRHfrjyoHUjJ938X6VqN-mcTMnQ
-    short-id: '47'
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: tv2rayrr
   type: vless
-  server: 38.180.17.232
-  port: 443
-  uuid: 96eb0aac-b747-4f3c-8c30-d2ff7ec7415c
-  network: tcp
-  udp: true
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
-    short-id: 3e
-- name: v2ray_extractor
-  type: vless
-  server: 140.238.100.35
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
   network: tcp
   udp: true
   tls: true
@@ -143,8 +109,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -153,23 +119,19 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
   - tv2rayrr
-  - v2ray_extractor
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
   - tv2rayrr
-  - v2ray_extractor
   - DIRECT
 rule-providers:
   ir:
