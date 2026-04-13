@@ -28,38 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 185.227.149.123
-  port: 443
-  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  server: hk.tfree.top
+  port: 10006
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   network: tcp
   udp: true
   tls: true
-  servername: mycatcollection.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-- name: configraygan
-  type: vless
-  server: 81.19.141.96
-  port: 8443
-  uuid: ca05976a-2dea-11f1-9ec5-baabcd4be2cd
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.apple.com
+  servername: www.cloudflare.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-    short-id: cafe01234567
+    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
+    short-id: 590bdc3b6dad
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -96,9 +79,9 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 154.83.129.121
-  port: 47653
-  uuid: 2491c11c-b958-4553-96f7-1aaa7cad8320
+  server: 188.126.76.159
+  port: 443
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
   network: tcp
   udp: true
   tls: true
@@ -109,25 +92,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: RxvvBDrokkAF9Hbx2xyb5JLOqk3zckOv3W8TbLnrH1w
-    short-id: ab
-- name: persianvpnhub
-  type: vless
-  server: 153.80.249.101
-  port: 443
-  uuid: 2491c11c-b958-4553-96f7-1aaa7cad8320
-  network: tcp
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: T9-LNstrlOx3Bme7jREFDfDcvgYt3YGUpkTH4Uhwlws
-    short-id: 4da040bb05be9f47
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
 - name: tv2rayrr
   type: vless
   server: fr.soreanapanel.com
@@ -153,22 +119,18 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - DIRECT
 rule-providers:
