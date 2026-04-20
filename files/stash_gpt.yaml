@@ -26,40 +26,40 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: Do1rcci
+  type: vless
+  server: 171.22.181.107
+  port: 443
+  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
+  network: tcp
+  udp: true
+  tls: true
+  servername: uk.milas.click
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
+    short-id: 4fa44664f6a566d3
 - name: FreakConfig
   type: vless
-  server: 199.241.32.132
-  port: 26978
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+  server: 185.162.11.223
+  port: 443
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
   network: tcp
   udp: true
   tls: true
-  servername: tesla.com
+  servername: sun6-21.userapi.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: 28bf
-- name: configraygan
-  type: vless
-  server: 57.129.53.182
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -96,13 +96,13 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 213.193.252.98
+  server: 159.195.26.156
   port: 443
-  uuid: 91bbe282-f2ba-46a6-8752-36ae55279169
+  uuid: 5bf06ee8-e673-4630-9764-592b2596bb5c
   network: tcp
   udp: true
   tls: true
-  servername: velik.normbot.ru
+  servername: germ.normbot.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
@@ -110,41 +110,24 @@ proxies:
   benchmark-timeout: 6
   reality-opts:
     public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-    short-id: 4d2c4fa29e40fb49
-- name: persianvpnhub
-  type: vless
-  server: 87.236.146.32
-  port: 443
-  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.vk.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
-    short-id: 6ba85179e30d4fc2
+    short-id: 6467aa9c086620dc
 - name: tv2rayrr
   type: vless
-  server: 47.245.38.111
+  server: 213.176.16.74
   port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  uuid: d7fbe279896e40118c23d15fe537dddd
   network: tcp
   udp: true
   tls: true
-  servername: www.autodesk.com
+  servername: apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
-    short-id: 860705e716cbe6ed
+    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
+    short-id: aabbccdd
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -152,23 +135,21 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - Do1rcci
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
+  - Do1rcci
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - DIRECT
 rule-providers:
