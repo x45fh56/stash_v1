@@ -26,40 +26,40 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: Do1rcci
-  type: vless
-  server: 171.22.181.107
-  port: 443
-  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
-  network: tcp
-  udp: true
-  tls: true
-  servername: uk.milas.click
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
-    short-id: 4fa44664f6a566d3
 - name: FreakConfig
   type: vless
-  server: 185.162.11.223
-  port: 443
-  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
+  server: 144.31.17.80
+  port: 30677
+  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
   network: tcp
   udp: true
   tls: true
-  servername: sun6-21.userapi.com
+  servername: google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
-    short-id: edbc04c389
+    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
+    short-id: '47595474'
+- name: configraygan
+  type: vless
+  server: 152.53.60.114
+  port: 7443
+  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+  network: tcp
+  udp: true
+  tls: true
+  servername: chat.deepseek.com
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: be0ce047
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -96,38 +96,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 159.195.26.156
+  server: 82.39.215.6
   port: 443
-  uuid: 5bf06ee8-e673-4630-9764-592b2596bb5c
+  uuid: 7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2
   network: tcp
   udp: true
   tls: true
-  servername: germ.normbot.ru
+  servername: www.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-    short-id: 6467aa9c086620dc
+    public-key: 4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA
+    short-id: aabbccdd
 - name: tv2rayrr
   type: vless
-  server: 213.176.16.74
+  server: tunnyl.ru
   port: 443
-  uuid: d7fbe279896e40118c23d15fe537dddd
+  uuid: d03e4b60-435d-4fc9-acd6-b63cff37b6eb
   network: tcp
   udp: true
   tls: true
-  servername: apple.com
-  client-fingerprint: chrome
+  servername: google.com
+  client-fingerprint: random
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
-    short-id: aabbccdd
+    public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
+    short-id: 0f1d6a
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -135,8 +135,8 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - Do1rcci
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -145,8 +145,8 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
-  - Do1rcci
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
