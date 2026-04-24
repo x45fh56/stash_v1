@@ -28,38 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 199.241.32.132
-  port: 26978
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+  server: 103.231.75.185
+  port: 443
+  uuid: f078abea-a480-44c7-a785-4436c767835a
   network: tcp
   udp: true
   tls: true
-  servername: tesla.com
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: 28bf
-- name: configraygan
-  type: vless
-  server: 152.53.60.114
-  port: 7443
-  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
-  network: tcp
-  udp: true
-  tls: true
-  servername: chat.deepseek.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: be0ce047
+    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
+    short-id: 0bce
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -96,38 +79,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 82.21.153.27
-  port: 443
-  uuid: 7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2
+  server: nltw4.lckdwn.ru
+  port: 8443
+  uuid: 1c61a6c0-9bc7-4cb8-9188-6d86d5989388
   network: tcp
   udp: true
   tls: true
-  servername: www.google.com
+  servername: nltw4.lckdwn.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA
-    short-id: aabbccdd
+    public-key: XEWgLksY3vnV9riMEO7AZ7HR0Ecv3HxXLFglZtcmx00
+    short-id: d5
 - name: tv2rayrr
   type: vless
-  server: fr.soreanapanel.com
-  port: 443
-  uuid: d2cec382-c701-4d66-8891-5945ad87d8a1
+  server: 40.233.83.110
+  port: 26113
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   network: tcp
   udp: true
   tls: true
-  servername: tgju.org
-  client-fingerprint: chrome
+  servername: www.yahoo.com
+  client-fingerprint: random
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs
-    short-id: 33d92e960cb19e71
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -136,7 +119,6 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -146,7 +128,6 @@ proxy-groups:
   proxies:
   - AUTO-IRAN
   - FreakConfig
-  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
