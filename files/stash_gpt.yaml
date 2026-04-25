@@ -28,89 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 103.231.75.185
-  port: 443
-  uuid: f078abea-a480-44c7-a785-4436c767835a
+  server: 199.241.32.132
+  port: 26978
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
   network: tcp
   udp: true
   tls: true
-  servername: yahoo.com
+  servername: tesla.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U
-    short-id: 0bce
-- name: dingyue_center
-  type: vless
-  server: pq.vmjp2.yydjc.top
-  port: 443
-  uuid: c41313a3-68f9-4569-982e-4a2306665f71
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdn-dynmedia-1.microsoft.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
-    short-id: b0fbe0f0
-- name: new_mtproxi2
-  type: vless
-  server: thesis.mhub-mc.ir
-  port: 3010
-  uuid: c4e2512d-060c-59a7-ad20-be4284298eeb
-  network: tcp
-  udp: true
-  tls: true
-  servername: refersion.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 8DGDiqDs99PvQGTjFh4Xu_4DmuKbk5bDJsUb73gEzW0
-    short-id: e32df1fa9070e48e
-- name: oneclickvpnkeys
-  type: vless
-  server: nltw4.lckdwn.ru
-  port: 8443
-  uuid: 1c61a6c0-9bc7-4cb8-9188-6d86d5989388
-  network: tcp
-  udp: true
-  tls: true
-  servername: nltw4.lckdwn.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: XEWgLksY3vnV9riMEO7AZ7HR0Ecv3HxXLFglZtcmx00
-    short-id: d5
-- name: tv2rayrr
-  type: vless
-  server: 40.233.83.110
-  port: 26113
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: 28bf
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -119,19 +51,11 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
-  - dingyue_center
-  - new_mtproxi2
-  - oneclickvpnkeys
-  - tv2rayrr
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
   - FreakConfig
-  - dingyue_center
-  - new_mtproxi2
-  - oneclickvpnkeys
-  - tv2rayrr
   - DIRECT
 rule-providers:
   ir:
