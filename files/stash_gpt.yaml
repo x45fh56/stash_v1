@@ -28,21 +28,106 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 199.241.32.132
-  port: 26978
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+  server: download.lastilhame.monster
+  port: 443
+  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
   network: tcp
   udp: true
   tls: true
-  servername: tesla.com
+  servername: www.techradar.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: 28bf
+    public-key: WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU
+    short-id: faa900664bad
+- name: dingyue_center
+  type: vless
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
+  network: tcp
+  udp: true
+  tls: true
+  servername: cdn-dynmedia-1.microsoft.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
+- name: new_mtproxi2
+  type: vless
+  server: thesis.mhub-mc.ir
+  port: 3010
+  uuid: c4e2512d-060c-59a7-ad20-be4284298eeb
+  network: tcp
+  udp: true
+  tls: true
+  servername: refersion.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 8DGDiqDs99PvQGTjFh4Xu_4DmuKbk5bDJsUb73gEzW0
+    short-id: e32df1fa9070e48e
+- name: oneclickvpnkeys
+  type: vless
+  server: 89.110.113.74
+  port: 443
+  uuid: 91debc17-d16b-444f-b5a1-2d9303e2ea41
+  network: tcp
+  udp: true
+  tls: true
+  servername: rbc.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
+    short-id: 387d2fb5f83c0cde
+- name: saministamm
+  type: vless
+  server: 78.159.131.5
+  port: 443
+  uuid: 6beee13a-f356-4a51-8e65-75f776508e8f
+  network: tcp
+  udp: true
+  tls: true
+  servername: al.cdn.stun.su
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+    short-id: 8051d89749e0d400
+- name: tv2rayrr
+  type: vless
+  server: tunnyl.ru
+  port: 443
+  uuid: d03e4b60-435d-4fc9-acd6-b63cff37b6eb
+  network: tcp
+  udp: true
+  tls: true
+  servername: google.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
+    short-id: 0f1d6a
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -51,11 +136,21 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
+  - dingyue_center
+  - new_mtproxi2
+  - oneclickvpnkeys
+  - saministamm
+  - tv2rayrr
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
   - FreakConfig
+  - dingyue_center
+  - new_mtproxi2
+  - oneclickvpnkeys
+  - saministamm
+  - tv2rayrr
   - DIRECT
 rule-providers:
   ir:
