@@ -28,21 +28,38 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 4.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  server: kz01-vlr01.tcp-reset-club.net
+  port: 443
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
   network: tcp
   udp: true
   tls: true
-  servername: icloud.com
+  servername: hls-svod.itunes.apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+- name: configraygan
+  type: vless
+  server: 5.180.97.139
+  port: 443
+  uuid: a384c715-aeb5-45e8-859b-f687ca6c083f
+  network: tcp
+  udp: true
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: wBrGfTI9PaFf966aN6KaCY0cL6QRLlop4nzNa6bJsiQ
+    short-id: 9f35da6c9412b832
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -79,38 +96,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 79.141.171.133
+  server: 95.164.85.33
   port: 443
-  uuid: 4c3fe585-ac09-41df-b284-888818888188
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
   network: tcp
   udp: true
   tls: true
-  servername: apple.com
+  servername: www.rakuten.co.jp
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
-    short-id: aabbccdd
+    public-key: -n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U
+    short-id: 41427aa565e28984
 - name: tv2rayrr
   type: vless
-  server: 185.243.99.104
-  port: 29453
-  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+  server: 77.110.119.225
+  port: 443
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
   network: tcp
   udp: true
   tls: true
-  servername: zhaket.com
+  servername: st.ozone.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
-    short-id: 850a5cbb81
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -119,6 +136,7 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -128,6 +146,7 @@ proxy-groups:
   proxies:
   - AUTO-IRAN
   - FreakConfig
+  - configraygan
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
