@@ -28,21 +28,21 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: hk.tfree.top
-  port: 10006
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  server: cid.wlrus.lol
+  port: 37016
+  uuid: c6be0a05-6105-4c0a-8af5-3e227f10735f
   network: tcp
   udp: true
   tls: true
-  servername: www.cloudflare.com
+  servername: www.nvidia.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
-    short-id: 590bdc3b6dad
+    public-key: YlwO0m3fxSkKzi0RqOadx0fDPUyDTmUEmHP97bvV7QQ
+    short-id: 6d37bd51
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -79,55 +79,55 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: lol-nld-0001.api.neuralrelay.stream
+  server: 72.56.123.227
   port: 443
-  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
+  uuid: a0e4e8b6-0518-4f19-803e-eece71583392
   network: tcp
   udp: true
   tls: true
-  servername: hls-svod.itunes.apple.com
+  servername: apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA
-    short-id: c25bd5a0bfdc06
-- name: saministamm
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
+- name: persianvpnhub
   type: vless
-  server: as.dlsp-ir.com
-  port: 2053
-  uuid: a2f046ac-33ac-4eb2-9a5e-8e3d1e0166b8
+  server: 95.164.44.237
+  port: 49790
+  uuid: 99210efd-1a49-4085-add3-d1d2e4fdd6c2
   network: tcp
   udp: true
   tls: true
-  servername: web.bale.ai
-  client-fingerprint: safari
+  servername: yahoo.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: eQiAdpGi9koz3778TAigmYSwoG4A1I8ewrzd6TvDTQQ
-    short-id: c7d77e
+    public-key: Xj6-HabAfXfu2dIz1orkRH5rAlbGMs0YMc7Zo4aARlU
+    short-id: 9d90d7ada8
 - name: tv2rayrr
   type: vless
-  server: 185.243.99.104
-  port: 29453
-  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+  server: 81.19.140.202
+  port: 60552
+  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
   network: tcp
   udp: true
   tls: true
-  servername: zhaket.com
+  servername: yandex.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
-    short-id: 850a5cbb81
+    public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
+    short-id: e62fec30f1a0167e
 - name: vpnbaz
   type: vless
   server: as.dlsp-ir.com
@@ -156,7 +156,7 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - saministamm
+  - persianvpnhub
   - tv2rayrr
   - vpnbaz
 - name: SELECT
@@ -167,7 +167,7 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - saministamm
+  - persianvpnhub
   - tv2rayrr
   - vpnbaz
   - DIRECT
