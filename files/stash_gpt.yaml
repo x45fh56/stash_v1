@@ -28,38 +28,55 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: cid.wlrus.lol
-  port: 37016
-  uuid: c6be0a05-6105-4c0a-8af5-3e227f10735f
+  server: 38.180.132.206
+  port: 443
+  uuid: 11e559f8-f5b7-48be-9ab5-7fc0915569e0
   network: tcp
   udp: true
   tls: true
-  servername: www.nvidia.com
+  servername: google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YlwO0m3fxSkKzi0RqOadx0fDPUyDTmUEmHP97bvV7QQ
-    short-id: 6d37bd51
+    public-key: MvZRXOgSBhkQB88kC6CnjiKs7pveuPMWA_TFSOvyRQ0
+    short-id: cf12caecc0
+- name: byiroh
+  type: vless
+  server: 5.159.54.140
+  port: 443
+  uuid: 3dd18d90-6bea-4c9a-ab37-63e89b7700ca
+  network: tcp
+  udp: true
+  tls: true
+  servername: aparat.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: A6_kAMUcoxeuilXwMvzPYFAP8ekULjxDu4KmQssG7Gc
+    short-id: 510b7f2f
 - name: dingyue_center
   type: vless
-  server: 216.250.96.164
-  port: 26000
-  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
   network: tcp
   udp: true
   tls: true
-  servername: apps.apple.com
+  servername: cdn-dynmedia-1.microsoft.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
-    short-id: 2f8400e348eb
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
 - name: new_mtproxi2
   type: vless
   server: thesis.mhub-mc.ir
@@ -79,55 +96,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 72.56.123.227
+  server: 7qqrbome80g.country-27.de-nfast.com
   port: 443
-  uuid: a0e4e8b6-0518-4f19-803e-eece71583392
+  uuid: 4b481152-ba7f-4445-8cc0-d33d58546e23
   network: tcp
   udp: true
   tls: true
-  servername: apple.com
+  servername: tradingview.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: 00684d2eae2cdd16
-- name: persianvpnhub
-  type: vless
-  server: 95.164.44.237
-  port: 49790
-  uuid: 99210efd-1a49-4085-add3-d1d2e4fdd6c2
-  network: tcp
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: Xj6-HabAfXfu2dIz1orkRH5rAlbGMs0YMc7Zo4aARlU
-    short-id: 9d90d7ada8
+    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
+    short-id: '50'
 - name: tv2rayrr
   type: vless
-  server: 81.19.140.202
-  port: 60552
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+  server: nl2.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   network: tcp
   udp: true
   tls: true
-  servername: yandex.ru
+  servername: cdnjs.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
-    short-id: e62fec30f1a0167e
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
 - name: vpnbaz
   type: vless
   server: as.dlsp-ir.com
@@ -153,10 +153,10 @@ proxy-groups:
   tolerance: 100
   proxies:
   - FreakConfig
+  - byiroh
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - vpnbaz
 - name: SELECT
@@ -164,10 +164,10 @@ proxy-groups:
   proxies:
   - AUTO-IRAN
   - FreakConfig
+  - byiroh
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - vpnbaz
   - DIRECT
