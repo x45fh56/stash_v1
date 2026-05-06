@@ -28,31 +28,31 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 38.180.132.206
-  port: 443
-  uuid: 11e559f8-f5b7-48be-9ab5-7fc0915569e0
+  server: 199.241.32.132
+  port: 26978
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
   network: tcp
   udp: true
   tls: true
-  servername: google.com
+  servername: tesla.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MvZRXOgSBhkQB88kC6CnjiKs7pveuPMWA_TFSOvyRQ0
-    short-id: cf12caecc0
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: 28bf
 - name: byiroh
   type: vless
   server: 5.159.54.140
   port: 443
-  uuid: 3dd18d90-6bea-4c9a-ab37-63e89b7700ca
+  uuid: 4d400592-45a1-4e05-80f6-8581658e71eb
   network: tcp
   udp: true
   tls: true
   servername: aparat.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
@@ -96,55 +96,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 7qqrbome80g.country-27.de-nfast.com
-  port: 443
-  uuid: 4b481152-ba7f-4445-8cc0-d33d58546e23
+  server: 45.206.0.72
+  port: 8443
+  uuid: c51f6eac-bacb-4438-a3af-2ad46a648712
   network: tcp
   udp: true
   tls: true
-  servername: tradingview.com
+  servername: rbc.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-    short-id: '50'
+    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+    short-id: 37772edff71b4167
 - name: tv2rayrr
   type: vless
-  server: nl2.srv.happvpn.com
-  port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
   network: tcp
   udp: true
   tls: true
-  servername: cdnjs.com
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
-- name: vpnbaz
-  type: vless
-  server: as.dlsp-ir.com
-  port: 2053
-  uuid: a2f046ac-33ac-4eb2-9a5e-8e3d1e0166b8
-  network: tcp
-  udp: true
-  tls: true
-  servername: web.bale.ai
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: eQiAdpGi9koz3778TAigmYSwoG4A1I8ewrzd6TvDTQQ
-    short-id: c7d77e
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -158,7 +141,6 @@ proxy-groups:
   - new_mtproxi2
   - oneclickvpnkeys
   - tv2rayrr
-  - vpnbaz
 - name: SELECT
   type: select
   proxies:
@@ -169,7 +151,6 @@ proxy-groups:
   - new_mtproxi2
   - oneclickvpnkeys
   - tv2rayrr
-  - vpnbaz
   - DIRECT
 rule-providers:
   ir:
