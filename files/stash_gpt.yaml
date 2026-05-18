@@ -26,23 +26,23 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: FreakConfig
+- name: Do1rcci
   type: vless
-  server: 4.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  server: reserved.fastnodegate.com
+  port: 8443
+  uuid: f84cadb07ef447bfafeeb88a4c88a12c
   network: tcp
   udp: true
   tls: true
-  servername: icloud.com
+  servername: fastnodegate.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
+    public-key: nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM
+    short-id: '70'
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -79,55 +79,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 91.199.50.37
-  port: 443
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+  server: 5.182.36.251
+  port: 16331
+  uuid: d7dbeb1e-268c-465c-8f59-489f14703efd
   network: tcp
   udp: true
   tls: true
-  servername: www.alibaba.com
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
-    short-id: c906f73d3ba8211f
-- name: persianvpnhub
-  type: vless
-  server: 2.27.26.36
-  port: 443
-  uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: RrBMccWJkTEHyG-V4ETU4SLEPYgxMzMyKdNQ1vu_RQc
-    short-id: '655345236526'
+    public-key: wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk
+    short-id: 910aab
 - name: tv2rayrr
   type: vless
-  server: 81.19.140.245
+  server: 91.220.8.177
   port: 443
-  uuid: 2676e126-8f83-44d0-8307-b06b63f8b007
+  uuid: 0eb0019b66404203a7e07701f61bf766
   network: tcp
   udp: true
   tls: true
-  servername: tunnel.vk-apps.com
+  servername: m.vk.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
-    short-id: 19d1ff9e
+    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
+    short-id: aabbccdd
 - name: v2ray_extractor
   type: vless
   server: 144.31.4.166
@@ -152,22 +135,20 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - FreakConfig
+  - Do1rcci
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
-  - FreakConfig
+  - Do1rcci
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
   - DIRECT
