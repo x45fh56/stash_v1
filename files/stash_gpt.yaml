@@ -26,23 +26,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: Do1rcci
-  type: vless
-  server: reserved.fastnodegate.com
-  port: 8443
-  uuid: f84cadb07ef447bfafeeb88a4c88a12c
-  network: tcp
-  udp: true
-  tls: true
-  servername: fastnodegate.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM
-    short-id: '70'
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -79,38 +62,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 5.182.36.251
-  port: 16331
-  uuid: d7dbeb1e-268c-465c-8f59-489f14703efd
+  server: 87.120.126.23
+  port: 443
+  uuid: 5fb4beab-89b7-48b4-9517-172a4221cbad
   network: tcp
   udp: true
   tls: true
-  servername: yahoo.com
+  servername: de4-mwscloud.onnstreaming.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk
-    short-id: 910aab
+    public-key: 0L2az4daQfRLsPZPMnDuU6VLA5yJWL3qIcOTfF3Sn2g
+    short-id: 70030fabf700a5d7
 - name: tv2rayrr
   type: vless
-  server: 91.220.8.177
-  port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
   network: tcp
   udp: true
   tls: true
-  servername: m.vk.com
+  servername: store.steampowered.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
 - name: v2ray_extractor
   type: vless
   server: 144.31.4.166
@@ -135,7 +118,6 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - Do1rcci
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -145,7 +127,6 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
-  - Do1rcci
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
