@@ -26,23 +26,40 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: dingyue_center
+- name: ConfigX2ray
   type: vless
-  server: 216.250.96.164
-  port: 26000
-  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  server: 45.15.160.132
+  port: 443
+  uuid: 0b89c53e-1d55-463f-90d7-f28b0e17b8a7
   network: tcp
   udp: true
   tls: true
-  servername: apps.apple.com
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
-    short-id: 2f8400e348eb
+    public-key: 2YrB1VDud3ZDZp-fnEGO7BKsHZQN9NVJuXU_5j-uzVI
+    short-id: ddb9
+- name: dingyue_center
+  type: vless
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
+  network: tcp
+  udp: true
+  tls: true
+  servername: cdn-dynmedia-1.microsoft.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
 - name: new_mtproxi2
   type: vless
   server: thesis.mhub-mc.ir
@@ -62,38 +79,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 87.120.126.23
+  server: 45.67.230.230
   port: 443
-  uuid: 5fb4beab-89b7-48b4-9517-172a4221cbad
+  uuid: 20ecee51-1044-4be3-89a9-f3c700425ead
   network: tcp
   udp: true
   tls: true
-  servername: de4-mwscloud.onnstreaming.ru
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 0L2az4daQfRLsPZPMnDuU6VLA5yJWL3qIcOTfF3Sn2g
-    short-id: 70030fabf700a5d7
+    public-key: qYg2nPdLpBYWM7-9leTq43SoqAc5nT90gFH-AHAMShY
+    short-id: abb1
 - name: tv2rayrr
   type: vless
-  server: 31.6.1.187
-  port: 25607
-  uuid: c8451b58-6337-4294-ba28-1a33731331a1
+  server: 91.220.8.177
+  port: 443
+  uuid: 0eb0019b66404203a7e07701f61bf766
   network: tcp
   udp: true
   tls: true
-  servername: store.steampowered.com
+  servername: m.vk.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
-    short-id: '84'
+    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
+    short-id: aabbccdd
 - name: v2ray_extractor
   type: vless
   server: 144.31.4.166
@@ -118,6 +135,7 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - ConfigX2ray
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -127,6 +145,7 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
+  - ConfigX2ray
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
