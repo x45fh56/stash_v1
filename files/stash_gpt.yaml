@@ -45,26 +45,9 @@ proxies:
     short-id: 53197c66aef53c44
 - name: ConfiingPro
   type: vless
-  server: 146.0.73.104
-  port: 8443
-  uuid: af194c0e-95c3-417b-85bf-9ac3027f903e
-  network: tcp
-  udp: true
-  tls: true
-  servername: ads.5ka.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: xSnNFylG-eUpKDPa2a-R3rdSB1HDrmenM-jU19n-xXA
-    short-id: 612d8fa72c
-- name: NetAccount
-  type: vless
-  server: 95.38.161.190
-  port: 443
-  uuid: 21e6b7ff-4333-45dd-b5fd-ec987b686edf
+  server: 83.228.226.72
+  port: 52717
+  uuid: a1ee1f7f-deb9-48e4-9a97-6f565949817d
   network: tcp
   udp: true
   tls: true
@@ -75,8 +58,25 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: zCHug4d7pR7SRXnmkbMbZpQSzXtdZ6cbckZzgFXqnwc
-    short-id: a26922
+    public-key: MQBlL0jqkNr2Hn0oZgD9AVqOidqwRRY6-BaIiOcpzw4
+    short-id: e2b970e593
+- name: ParsiNetFree
+  type: vless
+  server: 31.76.113.112
+  port: 443
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  network: tcp
+  udp: true
+  tls: true
+  servername: it.s3-cloud.xyz
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: 7a3f9e2b1c8d4f6a
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -113,38 +113,21 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 95.85.228.212
+  server: 144.31.157.56
   port: 443
-  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
+  uuid: 3e0c34a4-1c38-4d93-88c6-5155e81f8b52
   network: tcp
   udp: true
   tls: true
-  servername: est.hatvpn.org
+  servername: snapp.ir
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0
-    short-id: 5a7216aec1371894
-- name: persianvpnhub
-  type: vless
-  server: nl.gryaz-vpn.com
-  port: 35750
-  uuid: 200290dc-8698-4284-a6e5-0ffd91be8589
-  network: tcp
-  udp: true
-  tls: true
-  servername: cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: rtqKOfjHLaN8qzlOOGHXrxWnEoqzQKQLSi8ZGIMjVlQ
-    short-id: 01f43c37b8
+    public-key: D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0
+    short-id: 6ba85179e30d4fc2
 - name: pythash
   type: vless
   server: panel.panel.pythash.tr
@@ -164,24 +147,24 @@ proxies:
     short-id: ce8f30
 - name: tv2rayrr
   type: vless
-  server: 77.110.119.225
-  port: 443
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+  server: 40.233.83.110
+  port: 26113
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   network: tcp
   udp: true
   tls: true
-  servername: st.ozone.ru
-  client-fingerprint: chrome
+  servername: www.yahoo.com
+  client-fingerprint: random
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-    short-id: 07e904766d29b958
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
 - name: v2ray_extractor
   type: vless
-  server: 51.158.206.96
+  server: 51.158.206.86
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -222,11 +205,10 @@ proxy-groups:
   proxies:
   - ConfigX2ray
   - ConfiingPro
-  - NetAccount
+  - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - pythash
   - tv2rayrr
   - v2ray_extractor
@@ -237,11 +219,10 @@ proxy-groups:
   - AUTO-IRAN
   - ConfigX2ray
   - ConfiingPro
-  - NetAccount
+  - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
   - pythash
   - tv2rayrr
   - v2ray_extractor
