@@ -26,23 +26,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: ConfigX2ray
-  type: vless
-  server: germ-node.datamove.online
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-  network: tcp
-  udp: true
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
 - name: ConfiingPro
   type: vless
   server: 83.228.226.72
@@ -60,40 +43,74 @@ proxies:
   reality-opts:
     public-key: MQBlL0jqkNr2Hn0oZgD9AVqOidqwRRY6-BaIiOcpzw4
     short-id: e2b970e593
+- name: FreakConfig
+  type: vless
+  server: 213.176.77.65
+  port: 443
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.google.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA
+    short-id: 25425ff6fa
+- name: NetShot1
+  type: vless
+  server: uk-lon-1.azreefs.com
+  port: 1152
+  uuid: c6783bb7-21cf-4dad-9daf-691bc75f4563
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: bgccSepClMMl4HEOlxgtuDfR6c8Y20SJOS5F-EjwpRE
+    short-id: 12113a3da58f0ac1
 - name: ParsiNetFree
   type: vless
-  server: 31.76.113.112
-  port: 443
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  server: mag3.portal-guard.com
+  port: 8443
+  uuid: 8ea09611-4e24-49f9-8b2a-25974d8ebf8c
   network: tcp
   udp: true
   tls: true
-  servername: it.s3-cloud.xyz
+  servername: mag3.portal-guard.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: 7a3f9e2b1c8d4f6a
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '4326'
 - name: dingyue_center
   type: vless
-  server: 216.250.96.164
-  port: 26000
-  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
   network: tcp
   udp: true
   tls: true
-  servername: apps.apple.com
+  servername: cdn-dynmedia-1.microsoft.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
-    short-id: 2f8400e348eb
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
 - name: new_mtproxi2
   type: vless
   server: thesis.mhub-mc.ir
@@ -113,21 +130,38 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 144.31.157.56
+  server: 136.244.93.228
   port: 443
-  uuid: 3e0c34a4-1c38-4d93-88c6-5155e81f8b52
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
   network: tcp
   udp: true
   tls: true
-  servername: snapp.ir
+  servername: www.booking.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0
-    short-id: 6ba85179e30d4fc2
+    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
+    short-id: a1b2c3d4e5f67890
+- name: persianvpnhub
+  type: vless
+  server: transparency.cloud.appcore.org
+  port: 34754
+  uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: MNw8WI6R7SDlWC71MClNgpxNGUa-nYN4nGHn9pG62Ss
+    short-id: '81'
 - name: pythash
   type: vless
   server: panel.panel.pythash.tr
@@ -147,24 +181,24 @@ proxies:
     short-id: ce8f30
 - name: tv2rayrr
   type: vless
-  server: 40.233.83.110
-  port: 26113
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
   network: tcp
   udp: true
   tls: true
-  servername: www.yahoo.com
-  client-fingerprint: random
+  servername: store.steampowered.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
 - name: v2ray_extractor
   type: vless
-  server: 51.158.206.86
+  server: 15.204.97.197
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -203,12 +237,14 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - ConfigX2ray
   - ConfiingPro
+  - FreakConfig
+  - NetShot1
   - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - pythash
   - tv2rayrr
   - v2ray_extractor
@@ -217,12 +253,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
-  - ConfigX2ray
   - ConfiingPro
+  - FreakConfig
+  - NetShot1
   - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - pythash
   - tv2rayrr
   - v2ray_extractor
