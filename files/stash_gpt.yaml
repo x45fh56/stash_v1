@@ -26,23 +26,40 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: ConfiingPro
+- name: ConfigX2ray
   type: vless
-  server: 83.228.226.72
-  port: 52717
-  uuid: a1ee1f7f-deb9-48e4-9a97-6f565949817d
+  server: 62.238.32.25
+  port: 443
+  uuid: 1b9e301d-cecd-4eb1-8b36-eef811c2696d
   network: tcp
   udp: true
   tls: true
-  servername: www.aparat.com
+  servername: yastatic.net
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MQBlL0jqkNr2Hn0oZgD9AVqOidqwRRY6-BaIiOcpzw4
-    short-id: e2b970e593
+    public-key: 3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc
+    short-id: 5e841fab
+- name: ConfiingPro
+  type: vless
+  server: 62.238.42.89
+  port: 22300
+  uuid: 839e52d3-b8d3-43a4-8fdd-4b68a062a2a4
+  network: tcp
+  udp: true
+  tls: true
+  servername: refersion.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: yyzpJugzjA72vhwrrCMiEXPVqhojpH466piFyTa0Wl4
+    short-id: 20c0c082db737b…
 - name: FreakConfig
   type: vless
   server: 213.176.77.65
@@ -77,6 +94,23 @@ proxies:
   reality-opts:
     public-key: YtMwlaOi_MU9kXcCgFef_-GrHTWNyiHR1UWGo24daAk
     short-id: 1ec4acc748fb237e
+- name: ParsiNetFree
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -113,75 +147,75 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: nether2cxc.ignorelist.com
-  port: 443
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+  server: 23.26.37.120
+  port: 8443
+  uuid: dcba77d7-bb59-4802-b32c-37fd7011fca4
   network: tcp
   udp: true
   tls: true
-  servername: nether2cxc.ignorelist.com
+  servername: google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MNfRDUdBmptd-zKqgIljosss5-oNO44Lt68hgVwa_Qo
-    short-id: 22f2d3f943dfcb40
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
 - name: persianvpnhub
   type: vless
-  server: 31.76.53.213
-  port: 2040
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
+  server: usa.mr3lvl.sbs
+  port: 30338
+  uuid: 0611172f-802f-4932-b4bf-74f3bf755c89
   network: tcp
   udp: true
   tls: true
-  servername: apple.com
+  servername: play.google.com
   client-fingerprint: ios
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: 53197c66aef53c44
+    public-key: kGuhP-ErENlOzDDXz0J0f5EJpZjEjFG3BSnhX8R0onM
+    short-id: a3c27bbbf110
 - name: pythash
   type: vless
-  server: 51.44.25.250
-  port: 44520
-  uuid: acd726d3-0128-44d8-a575-21013ff7740a
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   udp: true
   tls: true
-  servername: yahoo.com
+  servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
-    short-id: 8897c56a495b26cc
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: tv2rayrr
   type: vless
-  server: 193.233.48.92
-  port: 443
-  uuid: b4fbe9de-88f4-4af7-bca0-631ff2883278
+  server: 156.229.161.107
+  port: 10001
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
   network: tcp
   udp: true
   tls: true
-  servername: tunnel.vk-apps.com
+  servername: www.icloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY
-    short-id: 6dfeb23c
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+    short-id: fb2c6678
 - name: v2ray_extractor
   type: vless
-  server: 15.204.97.195
+  server: 15.204.97.206
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -220,9 +254,11 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - ConfigX2ray
   - ConfiingPro
   - FreakConfig
   - NetShot1
+  - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -235,9 +271,11 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
+  - ConfigX2ray
   - ConfiingPro
   - FreakConfig
   - NetShot1
+  - ParsiNetFree
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
