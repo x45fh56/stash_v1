@@ -26,40 +26,91 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: FreakConfig
+- name: BrilliantGift
   type: vless
-  server: 45.128.233.31
-  port: 8443
-  uuid: 85dca508-15cc-43fc-8c35-8bc87c8a7858
+  server: 89.169.39.55
+  port: 443
+  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  network: tcp
+  udp: true
+  tls: true
+  servername: max.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
+    short-id: 28a059440d3d5ba1
+- name: ConfigX2ray
+  type: vless
+  server: panel.novexone.ir
+  port: 6767
+  uuid: f5f32cb1-a2bc-439d-a147-37e53f60c45b
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.intel.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 8hBBlbC2nD_pIwTgSR3KIe3FaEPzxH_AmCdAlvRaxzc
+    short-id: 0febfeb214ca
+- name: ConfiingPro
+  type: vless
+  server: vb13.homianco.ir
+  port: 2096
+  uuid: d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549
   network: tcp
   udp: true
   tls: true
   servername: play.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-    short-id: 6ba85179e30d4fc2
-- name: NetShot1
+    public-key: K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E
+    short-id: 42c0b628ba6a42a9🌍62650 | ⚡️Telegram = t.me/SOSkeyNET
+- name: FreakConfig
   type: vless
-  server: ai.carlifee.ir
-  port: 25565
-  uuid: 561e5141-d8fc-4b94-971a-a3a7ad7012fe
+  server: 3.112.19.64
+  port: 26902
+  uuid: 9cb72288-da5a-40a4-b856-4557f9849016
   network: tcp
   udp: true
   tls: true
-  servername: www.sony.com
-  client-fingerprint: chrome
+  servername: www.icloud.com
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: HiEOZtA_3AxRDO4PL2Dq0XSzvKRzH0XeGGb8voVE5jY
-    short-id: 73d3a34a8cd6e268
+    public-key: 5CqD0ZEtt5W_xA9adU4CxjH4xAV-BdCwhDuthBBnpFM
+    short-id: 450d60a09ffb65
+- name: NetShot1
+  type: vless
+  server: 89.169.39.55
+  port: 443
+  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
+  network: tcp
+  udp: true
+  tls: true
+  servername: max.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
+    short-id: 28a059440d3d5ba1
 - name: ParsiNetFree
   type: vless
   server: tralalero.site
@@ -77,23 +128,6 @@ proxies:
   reality-opts:
     public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
     short-id: 6419bed7fd0a2cff
-- name: SparrK_VPN
-  type: vless
-  server: 89.169.39.55
-  port: 443
-  uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
-  network: tcp
-  udp: true
-  tls: true
-  servername: max.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
-    short-id: 28a059440d3d5ba1
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -130,72 +164,55 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 144.31.190.188
+  server: 146.103.122.129
   port: 443
-  uuid: ec8c34f4-3576-4138-b847-61d177367e09
+  uuid: e52ce61d-57d1-40a4-ae72-9c4285f806b0
   network: tcp
   udp: true
   tls: true
-  servername: ru-1.videoproeditor.com
+  servername: nl1.orpheous.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: 6d6f13013d3e1d0c
-- name: persianvpnhub
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: 825e440473611838
+- name: pythash
   type: vless
-  server: 13.212.10.113
-  port: 51182
-  uuid: 2a222b39-411e-4d6d-800a-5d067199b6ec
+  server: 154.91.157.115
+  port: 8443
+  uuid: f8e699e8-c856-4297-b42c-0097544121c3
   network: tcp
   udp: true
   tls: true
-  servername: www.tesla.com
+  servername: rbc.ru
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 7MC_kyGYEV7nG0zqKnfwUmvXsoA0fGG4g4chkqqSRGI
-    short-id: 5ac35e1cd8ce6720
+    public-key: _0HnraldEtXmJMu7t3nEm8VmQXkMWF7dX1Dmz5KceSw
+    short-id: e3152b486a086f4e
 - name: tv2rayrr
   type: vless
-  server: 81.19.140.202
-  port: 60552
-  uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
   network: tcp
   udp: true
   tls: true
-  servername: yandex.ru
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
-    short-id: e62fec30f1a0167e
-- name: v2ray_extractor
-  type: vless
-  server: 51.158.206.103
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
 - name: v2to_nadi
   type: vless
   server: srv3.axylegend.ir
@@ -220,31 +237,33 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - BrilliantGift
+  - ConfigX2ray
+  - ConfiingPro
   - FreakConfig
   - NetShot1
   - ParsiNetFree
-  - SparrK_VPN
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
+  - pythash
   - tv2rayrr
-  - v2ray_extractor
   - v2to_nadi
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
+  - BrilliantGift
+  - ConfigX2ray
+  - ConfiingPro
   - FreakConfig
   - NetShot1
   - ParsiNetFree
-  - SparrK_VPN
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
-  - persianvpnhub
+  - pythash
   - tv2rayrr
-  - v2ray_extractor
   - v2to_nadi
   - DIRECT
 rule-providers:
