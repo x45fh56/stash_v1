@@ -26,45 +26,28 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: ConfigX2ray
-  type: vless
-  server: 45.196.224.176
-  port: 8443
-  uuid: ac2d70ef-eceb-4f98-9477-f0f27a18aad0
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: ece180c605b5453c
 - name: FreakConfig
   type: vless
-  server: 70.34.197.55
+  server: greb.loralden.com
   port: 443
-  uuid: ed0a1821-eae7-4f7a-ae0b-885b0bed1490
+  uuid: 2065a8c9-8b3d-4dba-b0ce-90d649aa3da7
   network: tcp
   udp: true
   tls: true
-  servername: www.oracle.com
-  client-fingerprint: chrome
+  servername: greb.loralden.com
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: hLMSRuFE8lh6xGR554TWw6-_lQMdvutvzPmJ4xdEkGQ
-    short-id: c4
+    public-key: EUK_ePvEKUGcezQYHqgJ5P462XxLPXPm9CZWGLaL33k
+    short-id: 3620820fe66d6731
 - name: Maznet
   type: vless
   server: 46.8.236.129
   port: 26140
-  uuid: 9b68c32d-953c-423f-a2e8-6447cc77cbf8
+  uuid: ee443a49-47a0-445c-8e2a-c7efbc74f483
   network: tcp
   udp: true
   tls: true
@@ -75,8 +58,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: Y8cdqmsCNqujpWKxRPfXQLB1CwJMhQRSKHaKOzBMFAY
-    short-id: c73dd5d128e6bd3d
+    public-key: cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0
+    short-id: fa893256a458b8a0
 - name: NetShot1
   type: vless
   server: 89.169.39.55
@@ -96,26 +79,26 @@ proxies:
     short-id: 28a059440d3d5ba1
 - name: ParsiNetFree
   type: vless
-  server: host.rent-home-now.com
-  port: 443
-  uuid: 9c8bf6ca-5b56-4f0b-ba22-a2ecd0282daf
+  server: my.porsline.site
+  port: 22231
+  uuid: 167aea70-ed98-4a28-8fbd-4c4528a2a7cb
   network: tcp
   udp: true
   tls: true
-  servername: aparat.com
+  servername: r1.mizulina.top
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: gJjDGu05qCVpcJMcBJKwNmUgueWgr9-6SdTrZieuVwc
-    short-id: '6186'
+    public-key: a6hWXstjhfgughAmgXs5-bxrIfICAeUhrrDWC9bc-GA
+    short-id: fd4e3c2340fae1
 - name: TheVPNMethod
   type: vless
-  server: 46.8.236.129
-  port: 26140
-  uuid: ee443a49-47a0-445c-8e2a-c7efbc74f483
+  server: 104.253.74.39
+  port: 8080
+  uuid: deb79775-35dc-4376-adf0-5b4fd26c691c
   network: tcp
   udp: true
   tls: true
@@ -126,8 +109,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0
-    short-id: fa893256a458b8a0
+    public-key: NJrlB9wz9ctlwMOIK8Jp7Ml25j77QlFOjpha1lEktkg
+    short-id: 4a9acf81b8773e1e
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -164,43 +147,43 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 2.27.46.22
+  server: rezerv4.yunus.guru
   port: 443
-  uuid: e7c611c7-fda5-4a9b-acb6-f6ad4d84c699
+  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
   network: tcp
   udp: true
   tls: true
-  servername: www.pinterest.com
+  servername: rezerv4.yunus.guru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 34TXgGlLD_6i3whMeIxiEruW-1BViyVwoHdKnMBX9h0
-    short-id: 3843d4
+    public-key: wdUdFTq0BP7xFnAWNbfdAFeieIOuExZ3HUctSiChCzU
+    short-id: e80a3158be637ee1
 - name: persianvpnhub
   type: vless
-  server: 89.124.76.147
-  port: 443
-  uuid: 55419186-0d66-4fdf-96dc-1ffed00017d6
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   udp: true
   tls: true
-  servername: cdn-nl-05.app-sc.com
+  servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ra0_KZBydcQXOsom9LxqRFjO4NBWY828DaTO6yHXvHY
-    short-id: 6103629de27adbff
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: pythash
   type: vless
-  server: 37.140.242.53
+  server: hm.khoycityman.ir
   port: 443
-  uuid: 572f9a3a-b0d6-41b6-82b9-e196c5106cad
+  uuid: b9317b11-bb1a-4478-9619-a40482ff3767
   network: tcp
   udp: true
   tls: true
@@ -212,58 +195,58 @@ proxies:
   benchmark-timeout: 6
   reality-opts:
     public-key: cAprase508p_Y7olUKMa-aqER9NcBqaCZ8xyvll4Xgk
-    short-id: edd3256dc1
+    short-id: b2
 - name: tv2rayrr
   type: vless
-  server: nl2.srv.happvpn.com
+  server: 143.20.79.11
   port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  uuid: 3a505568-fd7b-4bd8-8a57-ee26e6953b6f
   network: tcp
   udp: true
   tls: true
-  servername: cdnjs.com
+  servername: tunnel.vk-apps.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
+    public-key: MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw
+    short-id: 491db313
 - name: v2ray_extractor
   type: vless
-  server: 144.31.241.7
+  server: 194.87.31.22
   port: 8443
   uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
   network: tcp
   udp: true
   tls: true
-  servername: yourcloud.ldtp.com
+  servername: mishaduck.duckdns.org
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: kt-3Y5U6yLWiLB_RijhceKo01lYAVosWRZbhS05YpCY
-    short-id: 7d6203949764f921
+    public-key: -FQM2tUbpiBjwjgla2mwkSkFhFIKQU0FQOvRi0ZD_mY
+    short-id: 540f5784c2481b5a
 - name: vpnbaz
   type: vless
-  server: 185.204.168.149
-  port: 2083
-  uuid: 024c5ef7-e927-41a9-abdf-e628a3359411
+  server: host.rent-home-now.com
+  port: 443
+  uuid: 9c8bf6ca-5b56-4f0b-ba22-a2ecd0282daf
   network: tcp
   udp: true
   tls: true
-  servername: www.yahoo.com
+  servername: aparat.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: Ed5yexAbpTFkIr5a1OhlGUOj_JZGz3RZ4S3CdTYYoDs
-    short-id: 9cb5
+    public-key: gJjDGu05qCVpcJMcBJKwNmUgueWgr9-6SdTrZieuVwc
+    short-id: '6186'
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -271,7 +254,6 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
@@ -289,7 +271,6 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
-  - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
