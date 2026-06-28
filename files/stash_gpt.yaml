@@ -26,45 +26,62 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: ConfigX2ray
+- name: BrilliantGift
   type: vless
-  server: 5.199.170.105
+  server: 5.75.207.247
   port: 443
-  uuid: fd47216b-4217-4ec1-85b9-98304634a391
+  uuid: a1d262a9-6d57-4ff0-99e4-594782c2ca7c
   network: tcp
   udp: true
   tls: true
-  servername: amd.com
+  servername: www.nvidia.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: AQdYxjoMA0fxO8O9BX5bW4EMfRyiH09K0Hwjwse51AM
+    short-id: f5
+- name: ConfigX2ray
+  type: vless
+  server: fi.janusgate.org
+  port: 443
+  uuid: 44b52b3b-5979-4bfc-9d3e-fc8b8369ef91
+  network: tcp
+  udp: true
+  tls: true
+  servername: fi.janusgate.org
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE
-    short-id: 6ba85179e30d4fc2
+    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
+    short-id: 05cf93ad9f36e28e
 - name: FreakConfig
   type: vless
-  server: cdn.netraidly.ru
-  port: 40443
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
+  server: greb.loralden.com
+  port: 443
+  uuid: 2065a8c9-8b3d-4dba-b0ce-90d649aa3da7
   network: tcp
   udp: true
   tls: true
-  servername: deepl.com
+  servername: greb.loralden.com
   client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
+    public-key: EUK_ePvEKUGcezQYHqgJ5P462XxLPXPm9CZWGLaL33k
+    short-id: 3620820fe66d6731
 - name: Maznet
   type: vless
-  server: 65.109.186.115
-  port: 8080
-  uuid: fa1494d1-d388-49fb-8977-3797f10082f2
+  server: 46.8.236.129
+  port: 26140
+  uuid: ee443a49-47a0-445c-8e2a-c7efbc74f483
   network: tcp
   udp: true
   tls: true
@@ -75,47 +92,13 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k
-    short-id: cee5cf0cb56d9912
+    public-key: cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0
+    short-id: fa893256a458b8a0
 - name: NetShot1
   type: vless
-  server: 188.255.236.134
-  port: 443
-  uuid: 9d1f3567-232f-4a02-bf50-4028f5d9a8ca
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.microsoft.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: zMuLYURvrPXeNU39XaN9FZN5PUDQdyffei01IugpZwk
-    short-id: e32354adc83bd772
-- name: ParsiNetFree
-  type: vless
-  server: 217.217.247.247
-  port: 443
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-  network: tcp
-  udp: true
-  tls: true
-  servername: enterprisekitten.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-- name: TheVPNMethod
-  type: vless
-  server: 65.109.219.184
-  port: 8080
-  uuid: 12148857-9686-4574-b945-9158eb6d817d
+  server: 83.228.226.164
+  port: 2083
+  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
   network: tcp
   udp: true
   tls: true
@@ -126,8 +109,25 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 961VS5ape-I2uQYsfwK9GPofrAqJIyXCyj1K0bBzg28
-    short-id: 333d084624d338e2
+    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
+    short-id: 4e590fdc
+- name: ParsiNetFree
+  type: vless
+  server: 95.85.227.25
+  port: 443
+  uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
+  network: tcp
+  udp: true
+  tls: true
+  servername: pol1.hatvpn.org
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM
+    short-id: 19d6296d2621d9fa
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -164,9 +164,9 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 45.198.87.27
+  server: 45.195.137.241
   port: 8443
-  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
   network: tcp
   udp: true
   tls: true
@@ -177,47 +177,47 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 2715592069f36fe7
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: e3d38cee79d4f94c
 - name: persianvpnhub
   type: vless
-  server: 31.77.161.2
-  port: 8443
-  uuid: a6704fb4-4874-4e6b-98f4-571b048e3d90
+  server: 217.217.247.245
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
   network: tcp
   udp: true
   tls: true
-  servername: prod.de-node-01.security-sbrf.ru
-  client-fingerprint: firefox
+  servername: enterprisekitten.com
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 4XxjInQuDp4SqaYF03yQ1VY61exkKi9e0RS5-kgyxAE
-    short-id: db04ce8bdb8900f1
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
 - name: pythash
   type: vless
-  server: files.2365855155.ir
-  port: 19473
-  uuid: 6b853c66-a9be-48f7-9f1c-c3d951b3d3bc
+  server: 217.217.247.248
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
   network: tcp
   udp: true
   tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
+  servername: enterprisekitten.com
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: WZ5cQb6x0YUtCp3zujoSExI8v5zlOiLRH_YeJnGjiGw
-    short-id: 5974222a47655ae0
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
 - name: tv2rayrr
   type: vless
-  server: 143.20.79.11
+  server: 81.19.140.245
   port: 443
-  uuid: 3a505568-fd7b-4bd8-8a57-ee26e6953b6f
+  uuid: 2676e126-8f83-44d0-8307-b06b63f8b007
   network: tcp
   udp: true
   tls: true
@@ -228,42 +228,42 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw
-    short-id: 491db313
+    public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
+    short-id: 19d1ff9e
 - name: v2ray_extractor
   type: vless
-  server: 15.204.97.216
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 96.126.129.195
+  port: 2040
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
   network: tcp
   udp: true
   tls: true
-  servername: fuck.rkn
+  servername: tradingview.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: 53197c66aef53c44
 - name: vpnbaz
   type: vless
-  server: web.matcloud.ir
-  port: 22187
-  uuid: f7a656e5-e37d-442b-9693-29d293dba6bb
+  server: 217.217.247.248
+  port: 443
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
   network: tcp
   udp: true
   tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
+  servername: enterprisekitten.com
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: paBOT7GydCbq4n4ANTEKrsmenc1xD1TBwV5LgGf6EE0
-    short-id: 39aa597373aa1e5a
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -271,12 +271,12 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - BrilliantGift
   - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
   - ParsiNetFree
-  - TheVPNMethod
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
@@ -289,12 +289,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
+  - BrilliantGift
   - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
   - ParsiNetFree
-  - TheVPNMethod
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
