@@ -26,28 +26,28 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: BrilliantGift
+- name: ConfigX2ray
   type: vless
-  server: bypass.fr-gt-01.com
-  port: 8443
-  uuid: 356ccb34-22cc-4446-a137-072bc60d65ca
+  server: 77.83.245.253
+  port: 59492
+  uuid: 5aa708a4-0134-4f24-ba6f-d775651bd21e
   network: tcp
   udp: true
   tls: true
-  servername: storage.yandex.net
-  client-fingerprint: firefox
+  servername: www.google.com:443
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: f34818a561dfd1fe
+    public-key: jPWzhxlyYrRZTKbUO-Wb_OjWgD_7RrG3CFkttX7mKVY
+    short-id: 0b1eccc239d0
 - name: FreakConfig
   type: vless
-  server: qapoi.foot8all.ir
+  server: zvc.foot8all.ir
   port: 50567
-  uuid: a90bdbb4-65ff-4cec-85ce-9dc1ea7c2863
+  uuid: c141bff1-9984-4818-b3df-063dc4bfb7ce
   network: tcp
   udp: true
   tls: true
@@ -59,7 +59,7 @@ proxies:
   benchmark-timeout: 6
   reality-opts:
     public-key: NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs
-    short-id: 545df9caf95f7cd8
+    short-id: 29a833ab20778306
 - name: Maznet
   type: vless
   server: 46.8.236.129
@@ -77,23 +77,40 @@ proxies:
   reality-opts:
     public-key: Y8cdqmsCNqujpWKxRPfXQLB1CwJMhQRSKHaKOzBMFAY
     short-id: c73dd5d128e6bd3d
-- name: NetShot1
+- name: NetAccount
   type: vless
-  server: ci.temas-fars.ir
-  port: 2446
-  uuid: 94b509fa-d085-48fd-9e4d-88dc9a2cbc57
+  server: odqwd.foot8all.ir
+  port: 50567
+  uuid: 681314c5-b3ee-41f1-a959-fa42841f5383
   network: tcp
   udp: true
   tls: true
-  servername: icloud.com
+  servername: play.google.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs
+    short-id: c077229044b68285
+- name: NetShot1
+  type: vless
+  server: 82.39.214.45
+  port: 443
+  uuid: d2527061-d0f8-4646-b38d-b7828aafefd9
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.varzesh3.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: wa-3A_tTCfWDjH_n_MC9fwVViet-UJr2fyBcg3oMwCM
-    short-id: 8fc8b7f82c27e0fb
+    public-key: mBi2PpqpCcfwAy3Fkq5kqrs3SlZfS23j-dTYdMO4D1w
+    short-id: 7e8f9a0b
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -130,38 +147,55 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 132.243.254.58
+  server: 45.196.182.78
   port: 443
-  uuid: 98de0f0d-faec-43e1-ab40-a3bd6d91ceb8
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
   network: tcp
   udp: true
   tls: true
-  servername: www.google.com
+  servername: storage.yandex.net
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: BR69ZK8WI9lWKssofXxe45kViW7TcBoIPKv5aZI4uxE
-    short-id: abcd1234
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: d020b987f84eb78a
+- name: persianvpnhub
+  type: vless
+  server: 104.238.29.241
+  port: 443
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  network: tcp
+  udp: true
+  tls: true
+  servername: helsinki.fi
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM
+    short-id: 40a5eaec20abf1
 - name: tv2rayrr
   type: vless
-  server: 185.243.99.104
-  port: 29453
-  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
   network: tcp
   udp: true
   tls: true
-  servername: zhaket.com
+  servername: store.steampowered.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
-    short-id: 850a5cbb81
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
 - name: v2ray_extractor
   type: vless
   server: 144.31.219.208
@@ -203,13 +237,15 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - BrilliantGift
+  - ConfigX2ray
   - FreakConfig
   - Maznet
+  - NetAccount
   - NetShot1
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
   - vpnbaz
@@ -217,13 +253,15 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
-  - BrilliantGift
+  - ConfigX2ray
   - FreakConfig
   - Maznet
+  - NetAccount
   - NetShot1
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2ray_extractor
   - vpnbaz
