@@ -26,10 +26,27 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: BrilliantGift
+  type: vless
+  server: 147.45.136.213
+  port: 40443
+  uuid: f040b49a-14d3-4b83-af82-1f84ec7317c2
+  network: tcp
+  udp: true
+  tls: true
+  servername: deepl.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 1XGOxBopp223HFaTlswL3QE_1KW3WLgEbcHMA5cX9iM
+    short-id: 80ba
 - name: ConfigX2ray
   type: vless
-  server: ch.sv.temas-bor.ir
-  port: 22004
+  server: de.sv.temas-bor.ir
+  port: 22006
   uuid: dddff7f3-9a3d-463f-9213-0b8243e7f1db
   network: tcp
   udp: true
@@ -45,38 +62,38 @@ proxies:
     short-id: c6e19c434dc87df7
 - name: FreakConfig
   type: vless
-  server: upload.ansooyefilter.ir
-  port: 8443
-  uuid: 1d483092-65d3-464c-8baa-cb1ca5236282
+  server: 46.8.229.199
+  port: 443
+  uuid: 59d08a71-f206-4ca3-9a42-8c56d3bfdc3c
   network: tcp
   udp: true
   tls: true
-  servername: search.led.samsung.com
-  client-fingerprint: random
+  servername: intel.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 9LyZjKAQkh2_FwDS21QVW05gfBRR77KjatFS8EtRyU4
-    short-id: 8ed95b
+    public-key: 4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ
+    short-id: da
 - name: Maznet
   type: vless
-  server: 107.181.155.175
-  port: 8899
-  uuid: 3e6a3182-5cb6-476f-bbf5-80c4199c5fef
+  server: 46.8.236.129
+  port: 26140
+  uuid: ee443a49-47a0-445c-8e2a-c7efbc74f483
   network: tcp
   udp: true
   tls: true
-  servername: play.google.com
-  client-fingerprint: ios
+  servername: yahoo.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: wbcRJDNTU7tmBWYu_ik6nY_5nonaiMQjHY11OI5A_B8
-    short-id: 161f1eccd99956a2
+    public-key: cEKeWhExRbsgjk8qAd0KvDNnWRK4Sm9NYHH62sdVUH0
+    short-id: fa893256a458b8a0
 - name: NetShot1
   type: vless
   server: 147.45.136.213
@@ -94,23 +111,6 @@ proxies:
   reality-opts:
     public-key: 1XGOxBopp223HFaTlswL3QE_1KW3WLgEbcHMA5cX9iM
     short-id: 80ba
-- name: SparrK_VPN
-  type: vless
-  server: 151.80.147.30
-  port: 443
-  uuid: a1750ade-801f-4e3e-a5d2-de825771205d
-  network: tcp
-  udp: true
-  tls: true
-  servername: speedtest.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: Ij3Iz1jqht6zLOy9uI0iusTy4n1oIr7gpgTwRTtA8kY
-    short-id: 42b395462da31c0e
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -147,41 +147,41 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 89.105.219.139
+  server: 31.77.201.85
   port: 443
-  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
   network: tcp
   udp: true
   tls: true
-  servername: nl.quattro-tech.ru
+  servername: ag-03.rita-cloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
+    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
+    short-id: 0b0aa9caed9d011e
 - name: persianvpnhub
   type: vless
-  server: 47.89.186.170
-  port: 55861
-  uuid: d51ed55c-d6dd-400b-aaf6-017c33969bfe
+  server: at08.tunnely.ru
+  port: 443
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
   network: tcp
   udp: true
   tls: true
-  servername: www.intel.com
-  client-fingerprint: firefox
+  servername: at08.tunnely.ru
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs
-    short-id: 7551ed1b
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: 2e40144ddc07e8e1
 - name: tv2rayrr
   type: vless
-  server: youtube.happvpn.com
+  server: lt.srv.happvpn.com
   port: 443
   uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   network: tcp
@@ -196,23 +196,40 @@ proxies:
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
-- name: vpnbaz
+- name: v2ray_extractor
   type: vless
-  server: green.iranidrive.ir
-  port: 2092
-  uuid: e2609ee9-08f6-45b2-8eed-8889a799945f
+  server: 130.49.185.196
+  port: 443
+  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
   network: tcp
   udp: true
   tls: true
-  servername: www.yahoo.com
+  servername: site.rumedia-cdn.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 7UbUiwU9tjzhwCuEDqIXlF4zU8V7Gn-SkEcwcBqgNDU
-    short-id: 4e
+    public-key: 4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM
+    short-id: 808a7e8a2e32c697
+- name: vpnbaz
+  type: vless
+  server: 147.45.136.213
+  port: 40443
+  uuid: f040b49a-14d3-4b83-af82-1f84ec7317c2
+  network: tcp
+  udp: true
+  tls: true
+  servername: deepl.com
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 1XGOxBopp223HFaTlswL3QE_1KW3WLgEbcHMA5cX9iM
+    short-id: 80ba
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -220,31 +237,33 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - BrilliantGift
   - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
-  - SparrK_VPN
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
   - persianvpnhub
   - tv2rayrr
+  - v2ray_extractor
   - vpnbaz
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
+  - BrilliantGift
   - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
-  - SparrK_VPN
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
   - persianvpnhub
   - tv2rayrr
+  - v2ray_extractor
   - vpnbaz
   - DIRECT
 rule-providers:
