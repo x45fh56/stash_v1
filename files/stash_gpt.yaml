@@ -26,28 +26,45 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: FreakConfig
+- name: ConfigX2ray
   type: vless
-  server: 82.23.163.53
+  server: 151.80.147.30
   port: 443
-  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+  uuid: a1750ade-801f-4e3e-a5d2-de825771205d
   network: tcp
   udp: true
   tls: true
-  servername: xxl.orbit-escape.ru
+  servername: speedtest.net
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: Ij3Iz1jqht6zLOy9uI0iusTy4n1oIr7gpgTwRTtA8kY
+    short-id: 42b395462da31c0e
+- name: FreakConfig
+  type: vless
+  server: anipanel.alphanistam.ir
+  port: 7326
+  uuid: 0bd0838b-684b-43a0-8a1c-19b79c80ec81
+  network: tcp
+  udp: true
+  tls: true
+  servername: anipanel.alphanistam.ir
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: HS4Gr-vMqAOKdxn1Qr2Kwvh3UCIgr3eYWOvUTvuhJh4
-    short-id: 89965a0c305affd3
+    public-key: UQPZ09IzbcH0QtWGBQWlXInQ0d0FnfOz6wRdWvgxe3Y
+    short-id: ca9310c5654fa333
 - name: Maznet
   type: vless
-  server: 65.109.186.115
-  port: 8080
-  uuid: fa1494d1-d388-49fb-8977-3797f10082f2
+  server: 46.8.236.129
+  port: 26140
+  uuid: 9b68c32d-953c-423f-a2e8-6447cc77cbf8
   network: tcp
   udp: true
   tls: true
@@ -58,25 +75,25 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: IiXOtrr72OAumtdjHDdvqxwyiInUq8_5b2wG477U40k
-    short-id: cee5cf0cb56d9912
+    public-key: Y8cdqmsCNqujpWKxRPfXQLB1CwJMhQRSKHaKOzBMFAY
+    short-id: c73dd5d128e6bd3d
 - name: NetShot1
   type: vless
-  server: t.avrilon.us
+  server: germany2.avrilon.us
   port: 443
-  uuid: d0e2ae3e-0be7-4dcf-9abb-dcc82aabc076
+  uuid: e996abc7-cff3-4d9f-a9dc-0d717048a345
   network: tcp
   udp: true
   tls: true
-  servername: android.com
+  servername: image.semiconductor.samsung.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: wn5rNzAvTsOpmc6hHkw_woqwYGkFml8Uv2Klx9iydXI
-    short-id: a1d0
+    public-key: rA_ItMaIiG_OUjcaTLpxOoF-OHh4WJsNUfWh7QUn_xU
+    short-id: 2f3178a1d747
 - name: dingyue_center
   type: vless
   server: 216.250.96.164
@@ -113,41 +130,41 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 94.156.122.197
-  port: 443
-  uuid: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
+  server: billing.netraidly.ru
+  port: 40443
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
   network: tcp
   udp: true
   tls: true
-  servername: de2.themesh.site
+  servername: deepl.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: PjeRJM1RK0LzLMTyBE81vEYD5o-61q0D9RVNkLObugo
-    short-id: fecf00f90f921026
+    public-key: bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM
+    short-id: aa3c
 - name: persianvpnhub
   type: vless
-  server: 205.237.109.210
-  port: 448
-  uuid: 70df38ff-5a22-4ffc-a3f9-1725515e0ea5
+  server: 134.122.85.126
+  port: 53996
+  uuid: efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4
   network: tcp
   udp: true
   tls: true
-  servername: www.samsung.com
+  servername: timeline.www.cloudflare.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: IuB1jsALd-wN_8jRTGxVLBbVG5eSxNbOXjvFyZlm3UU
-    short-id: 113241ad01e99a2d
+    public-key: aNMxt5DL5lJSEb_zKQTvGw7GJqpLrOuNQMNUQ8A-BQ8
+    short-id: 25735c7d0c3dda
 - name: pythash
   type: vless
-  server: api-hub.dns-hub.ir
+  server: load.rx.land4k.com
   port: 7443
   uuid: a59e44cb-ef43-49e0-83d8-1f775c4f857f
   network: tcp
@@ -164,38 +181,38 @@ proxies:
     short-id: 0f9badb4158421e0
 - name: tv2rayrr
   type: vless
-  server: 91.220.8.177
+  server: tunnyl.ru
   port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
+  uuid: d03e4b60-435d-4fc9-acd6-b63cff37b6eb
   network: tcp
   udp: true
   tls: true
-  servername: m.vk.com
-  client-fingerprint: chrome
+  servername: google.com
+  client-fingerprint: random
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
+    public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
+    short-id: 0f1d6a
 - name: v2ray_extractor
   type: vless
-  server: 130.49.185.196
-  port: 443
-  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   udp: true
   tls: true
-  servername: site.rumedia-cdn.com
+  servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM
-    short-id: 808a7e8a2e32c697
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: vpnbaz
   type: vless
   server: namasha.broute.online
@@ -220,6 +237,7 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
+  - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
@@ -235,6 +253,7 @@ proxy-groups:
   type: select
   proxies:
   - AUTO-IRAN
+  - ConfigX2ray
   - FreakConfig
   - Maznet
   - NetShot1
