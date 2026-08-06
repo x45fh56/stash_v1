@@ -28,26 +28,26 @@ tun:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 130.49.185.196
+  server: 45.95.96.249
   port: 443
-  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
+  uuid: df41e720-656c-4c2b-91e8-9c3fcd820802
   network: tcp
   udp: true
   tls: true
-  servername: site.rumedia-cdn.com
-  client-fingerprint: chrome
+  servername: de.nalkonici.com
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM
-    short-id: 808a7e8a2e32c697
+    public-key: IybE2UVOhYpuPLPmCxWCKpskIyXqprjSs5-Pu8t5Wxw
+    short-id: aa608fb3545ec55b
 - name: Maznet
   type: vless
-  server: 62.238.39.20
-  port: 8999
-  uuid: 57d52736-888b-4139-a3d5-9b6d7c91c030
+  server: 213.156.152.42
+  port: 8089
+  uuid: b2424c2b-196c-4924-af15-747d27ef44a1
   network: tcp
   udp: true
   tls: true
@@ -62,21 +62,21 @@ proxies:
     short-id: 992a171518f6f60e
 - name: NetShot1
   type: vless
-  server: 78.40.195.56
-  port: 443
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
+  server: 70.39.197.13
+  port: 46197
+  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
   network: tcp
   udp: true
   tls: true
-  servername: 19.07-7.yunus.guru
+  servername: updates.cdn-apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank
-    short-id: c6d439fd92614ab0
+    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
+    short-id: f24c17bb7fc284
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -113,9 +113,60 @@ proxies:
     short-id: e32df1fa9070e48e
 - name: oneclickvpnkeys
   type: vless
-  server: 144.31.213.225
+  server: 64.188.62.138
+  port: 40443
+  uuid: 9150748b-fa2b-4ef1-a7f1-7c4a76e2dc0b
+  network: tcp
+  udp: true
+  tls: true
+  servername: deepl.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: U1ABwLTij71fW63nwMukZBezSQKADiBRuKCATiNUxUw
+    short-id: 27bb
+- name: persianvpnhub
+  type: vless
+  server: 144.31.218.178
+  port: 8765
+  uuid: f71e29f8-0608-4705-99b9-33e0e128ca6d
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.gitlab.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 5dh8zhGI2P-OXPhrOSYXysjsBsQ_gfZAZomOI5agano
+    short-id: 6a7c2332
+- name: tv2rayrr
+  type: vless
+  server: usa.srv.happvpn.com
   port: 443
-  uuid: 9e3de7f7-a595-4117-b1b6-dc41eb870ab1
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  network: tcp
+  udp: true
+  tls: true
+  servername: cdnjs.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+- name: v2cnf
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
   network: tcp
   udp: true
   tls: true
@@ -126,45 +177,11 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ABNRlkjlonYV9TOFYgjWwz0wn1s6sg_yCErsLYkU_Sg
-    short-id: d6ff9019a77e354a
-- name: tv2rayrr
-  type: vless
-  server: 91.220.8.177
-  port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
-  network: tcp
-  udp: true
-  tls: true
-  servername: m.vk.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
-- name: v2cnf
-  type: vless
-  server: 45.95.96.249
-  port: 443
-  uuid: df41e720-656c-4c2b-91e8-9c3fcd820802
-  network: tcp
-  udp: true
-  tls: true
-  servername: de.nalkonici.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: IybE2UVOhYpuPLPmCxWCKpskIyXqprjSs5-Pu8t5Wxw
-    short-id: aa608fb3545ec55b
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
 - name: v2ray_extractor
   type: vless
-  server: 51.158.206.25
+  server: 51.158.206.96
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -209,6 +226,7 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2cnf
   - v2ray_extractor
@@ -223,6 +241,7 @@ proxy-groups:
   - dingyue_center
   - new_mtproxi2
   - oneclickvpnkeys
+  - persianvpnhub
   - tv2rayrr
   - v2cnf
   - v2ray_extractor
