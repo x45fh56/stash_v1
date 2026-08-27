@@ -26,91 +26,74 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: 🇺🇸US-ConfigX2ray
+- name: 🇹🇷TR-FreakConfig
   type: vless
-  server: 154.23.242.77
-  port: 10005
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.asus.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: 1974efea3b2148
-- name: 🇳🇱NL-ConfigX2ray
-  type: vless
-  server: 85.155.226.137
+  server: 194.93.61.95
   port: 443
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
   network: tcp
   udp: true
   tls: true
-  servername: getsavesafe.net
+  servername: cdnjs.com
   client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: 82f5d3a1e9c0b661
-- name: Domain-ConfigX2ray
-  type: vless
-  server: yt.orpheous.ru
-  port: 443
-  uuid: 00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5
-  network: tcp
-  udp: true
-  tls: true
-  servername: yt.orpheous.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4
-    short-id: e4aa362b5f9d07d7
-- name: 🇨🇿CZ-ConfigX2ray
-  type: vless
-  server: 46.8.41.42
-  port: 443
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-  network: tcp
-  udp: true
-  tls: true
-  servername: uk1.panel11.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: L5qLDM9pWlBV6gU9yCT4_yc7jz982FiLi2CZWLo3Ki0
-    short-id: dcbf3f13ce2dbe37
-- name: 🇹🇷TR-FreakConfig
-  type: vless
-  server: 194.93.61.70
-  port: 443
-  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdnjs.com
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: 58fbcddfaae3ade9
+- name: 🇳🇴NO-FreakConfig
+  type: vless
+  server: 194.110.207.48
+  port: 443
+  uuid: 14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0
+  network: tcp
+  udp: true
+  tls: true
+  servername: kibi-institut.de
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+- name: Domain-FreakConfig
+  type: vless
+  server: kz.alertyagency.com
+  port: 443
+  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
+  network: tcp
+  udp: true
+  tls: true
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: vsDwubDjDjfLpWAHRNFGVfmC8hLiXDablO1iOOXdUhQ
+    short-id: 01e4de88
+- name: 🇨🇭CH-FreakConfig
+  type: vless
+  server: 2.26.135.193
+  port: 443
+  uuid: 627b1c2d-2905-470f-857a-da7589968fbc
+  network: tcp
+  udp: true
+  tls: true
+  servername: smorodina.mycdn-me.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
+    short-id: a1f9c0e21d7b6485
 - name: 🇮🇷IR-FreakConfig
   type: vless
   server: 94.183.157.203
@@ -128,40 +111,6 @@ proxies:
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
     short-id: cbb0a5c1dc905505
-- name: 🇯🇵JP-FreakConfig
-  type: vless
-  server: 45.66.218.187
-  port: 50159
-  uuid: fdb25e5e-d99a-468c-aa13-0fe9892771b6
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: GBSyMDmBSz4C-brs0GYG6HXNb2CyWANvkBrd8W1GDU0
-    short-id: 6b22ad2202d70547
-- name: Domain-FreakConfig
-  type: vless
-  server: lastchance.whit3.net
-  port: 443
-  uuid: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
-  network: tcp
-  udp: true
-  tls: true
-  servername: lastchance.whit3.net
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1xq4kMV5MBlwzlXjAI7oFZqtfIPMZfP2_7fTNfjOVjU
-    short-id: 4b1b942b4dfcfdf8
 - name: 🇳🇱NL-FreakConfig
   type: vless
   server: 95.85.248.50
@@ -179,26 +128,9 @@ proxies:
   reality-opts:
     public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
     short-id: dd3ff38418d29d22
-- name: 🇺🇸US-FreakConfig
+- name: 🇫🇮FI-Maznet
   type: vless
-  server: 80.209.242.219
-  port: 8443
-  uuid: 03bb538f-2a16-4a31-a747-1a5e5a4c8cfa
-  network: tcp
-  udp: true
-  tls: true
-  servername: blog.api.www.cloudflare.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: JSuGjKCO2qkvNLP6jiMgIzlYhFrtkil7Iv2OP9ukegc
-    short-id: 09b62e27761e80a9
-- name: 🇺🇸US-Maznet
-  type: vless
-  server: 143.246.136.252
+  server: 62.238.39.20
   port: 8999
   uuid: 57d52736-888b-4139-a3d5-9b6d7c91c030
   network: tcp
@@ -213,9 +145,9 @@ proxies:
   reality-opts:
     public-key: dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk
     short-id: 992a171518f6f60e
-- name: 🇫🇮FI-Maznet
+- name: 🇺🇸US-Maznet
   type: vless
-  server: 62.238.39.20
+  server: 143.246.136.252
   port: 8999
   uuid: 57d52736-888b-4139-a3d5-9b6d7c91c030
   network: tcp
@@ -247,91 +179,6 @@ proxies:
   reality-opts:
     public-key: dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk
     short-id: 992a171518f6f60e
-- name: 🇩🇪DE-NetAccount
-  type: vless
-  server: 178.162.253.64
-  port: 443
-  uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907
-  network: tcp
-  udp: true
-  tls: true
-  servername: de.servers.gracevpnbuy.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
-    short-id: b91a73752053b039
-- name: 🇸🇨SC-NetShot1
-  type: vless
-  server: 45.195.111.108
-  port: 443
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: f4b4a6365558ea2e
-- name: Domain-NetShot1
-  type: vless
-  server: plot.whit3.net
-  port: 443
-  uuid: 32bf865b-e98c-494d-bcb6-23c3cde2429c
-  network: tcp
-  udp: true
-  tls: true
-  servername: plot.whit3.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: Hcg9T_s9LuWkVQW14TzIPuyZio32WbA6irp782TUXnM
-    short-id: 0138875bd7d8725a
-- name: 🇳🇱NL-NetShot1
-  type: vless
-  server: 194.26.192.76
-  port: 443
-  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
-  network: tcp
-  udp: true
-  tls: true
-  servername: nl1.tsumshop.org
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ
-    short-id: c8c75aaf699259b4
-- name: 🇸🇬SG-NetShot1
-  type: vless
-  server: 45.198.96.210
-  port: 443
-  uuid: 19b64e79-73b4-4478-bbfc-fb57737b94f8
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8
-    short-id: 764f497dda21c4fc
 - name: 🇷🇴RO-NetShot1
   type: vless
   server: 103.126.50.203
@@ -349,40 +196,91 @@ proxies:
   reality-opts:
     public-key: xp7g5asMyVx4aI7vEwfZZPrpd57izUvnNzAOpBs4mh0
     short-id: b9f8f9772217538f
-- name: 🇺🇸US-artemisvpn1
+- name: 🇸🇬SG-NetShot1
   type: vless
-  server: 31.76.83.114
+  server: 45.198.96.210
   port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: 19b64e79-73b4-4478-bbfc-fb57737b94f8
   network: tcp
   udp: true
   tls: true
-  servername: baltic.cendora.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: 4a46213c935e2ee4
-- name: 🇭🇰HK-dingyue_center
-  type: vless
-  server: 216.250.96.164
-  port: 26000
-  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
-  network: tcp
-  udp: true
-  tls: true
-  servername: apps.apple.com
+  servername: storage.yandex.net
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
-    short-id: 2f8400e348eb
+    public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8
+    short-id: 764f497dda21c4fc
+- name: Domain-NetShot1
+  type: vless
+  server: ger3.orangesms.ir
+  port: 1824
+  uuid: 11281ced-e6e5-41fe-a2a4-9732c73c9487
+  network: tcp
+  udp: true
+  tls: true
+  servername: amp-api-edge.apps.apple.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
+    short-id: 8390ee7a5996648b
+- name: 🇦🇹AT-NetShot1
+  type: vless
+  server: 157.173.7.200
+  port: 443
+  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
+  network: tcp
+  udp: true
+  tls: true
+  servername: node-fra02.rkitman.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+- name: 🇳🇱NL-NetShot1
+  type: vless
+  server: 194.26.192.76
+  port: 443
+  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
+  network: tcp
+  udp: true
+  tls: true
+  servername: nl1.tsumshop.org
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ
+    short-id: c8c75aaf699259b4
+- name: 🇸🇨SC-NetShot1
+  type: vless
+  server: 45.195.111.108
+  port: 443
+  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
+  network: tcp
+  udp: true
+  tls: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
 - name: Domain-dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -400,28 +298,130 @@ proxies:
   reality-opts:
     public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
     short-id: b0fbe0f0
-- name: 🇷🇺RU-freevpnchina
+- name: 🇭🇰HK-dingyue_center
   type: vless
-  server: 85.198.70.200
-  port: 14406
-  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+  server: 216.250.96.164
+  port: 26000
+  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
   network: tcp
   udp: true
   tls: true
-  servername: vk.ru
-  client-fingerprint: qq
+  servername: apps.apple.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
-    short-id: 1a2b3c4d5e6f7a8b
+    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
+    short-id: 2f8400e348eb
+- name: 🇯🇵JP-freevpnchina
+  type: vless
+  server: 2001:19f0:7001:5948:5400:6ff:fe51:80d6
+  port: 443
+  uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
+  network: tcp
+  udp: true
+  tls: true
+  servername: fa293f34s8365.gogocs.xyz
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 5CnEhjRNLBn_hvJ1ElY86WvsnGkEQT9XZTrl92rpciE
+    short-id: a825eb96
+- name: 🇬🇧GB-freevpnchina
+  type: vless
+  server: 138.124.125.211
+  port: 443
+  uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo
+    short-id: 72cceb78
+- name: 🇸🇪SE-freevpnchina
+  type: vless
+  server: 2.26.101.64
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: nordic.cendora.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: 2186a755ed67b034
+- name: 🇳🇴NO-freevpnchina
+  type: vless
+  server: 151.242.168.181
+  port: 443
+  uuid: 6c52b79f-fd02-41bc-bf75-4c80fbc6a939
+  network: tcp
+  udp: true
+  tls: true
+  servername: kibi-institut.de
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ
+    short-id: 46babe29a750b634
+- name: 🇪🇪EE-freevpnchina
+  type: vless
+  server: 95.85.224.76
+  port: 443
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  network: tcp
+  udp: true
+  tls: true
+  servername: ee-download.spectrum.vu
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: 7b1c7d9a3f2a
+- name: 🇳🇱NL-freevpnchina
+  type: vless
+  server: 144.31.237.206
+  port: 443
+  uuid: 9500cf8b-020a-4a70-906c-e14bb5375875
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.sciencedirect.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: a1b2c4d4a1b2c5d5
 - name: 🇸🇬SG-freevpnchina
   type: vless
-  server: 3.1.27.183
+  server: 18.142.121.9
   port: 8686
-  uuid: f0b9ae63-91a7-4673-924e-498e0e0828c0
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
   network: tcp
   udp: true
   tls: true
@@ -434,108 +434,6 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: 628b3c90c98ead4f
-- name: 🇳🇴NO-freevpnchina
-  type: vless
-  server: 46.29.238.139
-  port: 40443
-  uuid: 8384341b-cd89-4a21-a022-cc4bd4e648ca
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 7i4Y7v80NVAIi_4_9roDkqcXmexIHli87dfZuFaQMUI
-    short-id: 68da
-- name: 🇩🇪DE-freevpnchina
-  type: vless
-  server: 169.40.42.52
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: ios
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-- name: Domain-freevpnchina
-  type: vless
-  server: fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop
-  port: 2095
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.speedtest.net
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 9nvQaypTgq2UZ_9wSUctYxStDRWNJqe3o9evmKc5UBE
-    short-id: bc348c28dbc7b9f5
-- name: 🇳🇱NL-freevpnchina
-  type: vless
-  server: 185.170.211.186
-  port: 443
-  uuid: 541cbb83-6c17-42b3-ba51-840c27962e02
-  network: tcp
-  udp: true
-  tls: true
-  servername: nl3.bbobr.win
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: lrnJvIO_un7MHXi61-rep_YCjIbZ7OvyUTwtFZza0Es
-    short-id: 8b4342b5722e1458
-- name: 🇫🇷FR-freevpnchina
-  type: vless
-  server: 77.221.152.100
-  port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  network: tcp
-  udp: true
-  tls: true
-  servername: node14.mxvpn.dev
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-- name: 🇬🇧GB-freevpnchina
-  type: vless
-  server: 109.169.37.129
-  port: 443
-  uuid: 6d726e4b-e2a4-45bd-babc-64cf253b3480
-  network: tcp
-  udp: true
-  tls: true
-  servername: foodnetwork.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
 - name: 🇪🇸ES-freevpnchina
   type: vless
   server: 83.147.18.3
@@ -553,193 +451,57 @@ proxies:
   reality-opts:
     public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
     short-id: fd8cf7e1173f0edb
-- name: 🇸🇪SE-freevpnchina
+- name: Domain-freevpnchina
   type: vless
-  server: 2.26.101.64
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  server: 39d98166b8c138bd.monopolitass.ir
+  port: 50567
+  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
   network: tcp
   udp: true
   tls: true
-  servername: nordic.cendora.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
-- name: 🇺🇸US-freevpnchina
-  type: vless
-  server: 144.31.65.68
-  port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  network: tcp
-  udp: true
-  tls: true
-  servername: node18.mxvpn.dev
+  servername: play.google.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-- name: 🇦🇪AE-freevpnchina
-  type: vless
-  server: 78.17.109.126
-  port: 13868
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  network: tcp
-  udp: true
-  tls: true
-  servername: wp.pl
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-    short-id: e852dc
-- name: 🇯🇵JP-freevpnchina
-  type: vless
-  server: 2001:19f0:7001:5c0f:5400:6ff:fe61:bee3
-  port: 443
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  network: tcp
-  udp: true
-  tls: true
-  servername: 848ca573s1515.gogocs.xyz
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: Z0e3FDb_eaDgLvkqF3zBS-8GyK4YZZrOSbRsgyRnfFM
-    short-id: c2142637
-- name: 🇹🇷TR-freevpnchina
-  type: vless
-  server: 193.124.45.154
-  port: 13443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-- name: 🇪🇪EE-freevpnchina
-  type: vless
-  server: 64.188.82.57
-  port: 443
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  network: tcp
-  udp: true
-  tls: true
-  servername: ee-download.spectrum.vu
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
-    short-id: 7b1c7d9a3f2a
-- name: 🇬🇷GR-freevpnchina
-  type: vless
-  server: 94.241.174.157
-  port: 40443
-  uuid: 8ac637bf-554e-4902-94d7-baf01780a83c
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ
-    short-id: beb4
-- name: 🇰🇷KR-freevpnchina
-  type: vless
-  server: 2401:c080:1c02:863:5400:6ff:fe52:9f65
-  port: 443
-  uuid: 9794d18f-9280-3553-a7a5-a23da75aca76
-  network: tcp
-  udp: true
-  tls: true
-  servername: 7fcd0ec8s8598.gogocs.xyz
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: bCf5kdCMhUtzLfYXqiJYG-HItln5XqLZmP0jJK7Xkjg
-    short-id: f644fb8f
-- name: 🇺🇦UA-freevpnchina
-  type: vless
-  server: 5.34.182.23
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-central.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
+    public-key: NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs
+    short-id: c39acc8cb9481d24
 - name: 🇫🇮FI-freevpnchina
   type: vless
-  server: 144.31.226.177
+  server: 91.103.140.243
   port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  uuid: c8dcbe44-5714-4f99-8d7a-aadebea34abf
   network: tcp
   udp: true
   tls: true
-  servername: node15.mxvpn.dev
-  client-fingerprint: chrome
+  servername: www.amd.com
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-- name: 🇱🇹LT-freevpnchina
+    public-key: 118rMk41g_0BeoQDR2V_1f8ABzC1WKXdolzE-LxqowM
+    short-id: bff835c98c
+- name: 🇩🇪DE-freevpnchina
   type: vless
-  server: 153.56.135.59
+  server: 169.40.42.104
   port: 443
-  uuid: d067adf8-9adc-4854-990d-f779875a855e
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
   udp: true
   tls: true
-  servername: www.rumedia-cdn.com
+  servername: yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: OevcHjcNd6P5915hkVd476stUNgpabD_XO9eWtArrls
-    short-id: f5f36cfd792b1f65
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
 - name: 🇮🇳IN-freevpnchina
   type: vless
   server: 148.113.5.44
@@ -757,57 +519,125 @@ proxies:
   reality-opts:
     public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
     short-id: 221873918e0bb74d
+- name: 🇷🇺RU-freevpnchina
+  type: vless
+  server: 81.177.215.156
+  port: 13868
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  network: tcp
+  udp: true
+  tls: true
+  servername: amd.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko
+    short-id: e852dc
+- name: 🇺🇦UA-freevpnchina
+  type: vless
+  server: 5.34.182.23
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+- name: 🇺🇸US-freevpnchina
+  type: vless
+  server: 51.81.203.63
+  port: 443
+  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
+    short-id: 4477382ff6d3d41c
+- name: 🇰🇷KR-freevpnchina
+  type: vless
+  server: 43.201.20.30
+  port: 8686
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: 628b3c90c98ead4f
 - name: 🇨🇾CY-freevpnchina
   type: vless
-  server: 5.253.42.164
-  port: 40443
-  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
+  server: 5.253.28.189
+  port: 13443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   network: tcp
   udp: true
   tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
+  servername: auto.cendora.ru
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: 68a8
-- name: 🇩🇰DK-freevpnchina
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+- name: 🇫🇷FR-freevpnchina
   type: vless
-  server: 46.29.235.9
+  server: 77.221.152.100
   port: 443
-  uuid: d67af820-f54c-48ab-862c-19086357f276
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
   network: tcp
   udp: true
   tls: true
-  servername: telegraf.lv
-  client-fingerprint: chrome
+  servername: node14.mxvpn.dev
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
-- name: 🇲🇩MD-freevpnchina
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: bbc68cec8bb8d2e3
+- name: 🇦🇪AE-freevpnchina
   type: vless
-  server: 144.31.131.241
-  port: 8443
-  uuid: b406bc51-9002-474c-beae-b194b02c91da
+  server: 31.59.125.49
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   network: tcp
   udp: true
   tls: true
-  servername: mold.speedload.online
+  servername: eu-central.cendora.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: a20d3ed244c76426
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
 - name: 🇭🇰HK-freevpnchina
   type: vless
   server: 103.149.183.198
@@ -825,74 +655,57 @@ proxies:
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
     short-id: af1bdd293097b664
-- name: 🇹🇼TW-freevpnchina
+- name: 🇩🇰DK-freevpnchina
   type: vless
-  server: 45.121.50.241
-  port: 50159
-  uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
-    short-id: 4c3f80051030ba1b
-- name: 🇨🇭CH-freevpnchina
-  type: vless
-  server: 185.232.117.114
+  server: 46.29.235.9
   port: 443
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  uuid: d67af820-f54c-48ab-862c-19086357f276
   network: tcp
   udp: true
   tls: true
-  servername: vl04.skorostnet.space
+  servername: telegraf.lv
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: fdda9806fe5d8584
-- name: 🇱🇻LV-freevpnchina
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: a1b2c3d4
+- name: 🇱🇹LT-freevpnchina
   type: vless
-  server: 195.123.210.168
+  server: 153.56.135.59
   port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: d067adf8-9adc-4854-990d-f779875a855e
   network: tcp
   udp: true
   tls: true
-  servername: eu-west.cendora.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
-- name: 🇦🇹AT-freevpnchina
-  type: vless
-  server: 152.53.114.186
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  network: tcp
-  udp: true
-  tls: true
-  servername: as.tunnelx.space
+  servername: www.rumedia-cdn.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA
-    short-id: 4e9b0c2d1a3f5768
+    public-key: OevcHjcNd6P5915hkVd476stUNgpabD_XO9eWtArrls
+    short-id: f5f36cfd792b1f65
+- name: 🇬🇷GR-freevpnchina
+  type: vless
+  server: 94.241.174.157
+  port: 40443
+  uuid: 8ac637bf-554e-4902-94d7-baf01780a83c
+  network: tcp
+  udp: true
+  tls: true
+  servername: deepl.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ
+    short-id: beb4
 - name: 🇨🇿CZ-freevpnchina
   type: vless
   server: 188.127.247.129
@@ -910,6 +723,57 @@ proxies:
   reality-opts:
     public-key: Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4
     short-id: 0c
+- name: 🇦🇹AT-freevpnchina
+  type: vless
+  server: 152.53.114.186
+  port: 443
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  network: tcp
+  udp: true
+  tls: true
+  servername: as.tunnelx.space
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA
+    short-id: 4e9b0c2d1a3f5768
+- name: 🇲🇩MD-freevpnchina
+  type: vless
+  server: 144.31.131.241
+  port: 8443
+  uuid: b406bc51-9002-474c-beae-b194b02c91da
+  network: tcp
+  udp: true
+  tls: true
+  servername: mold.speedload.online
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: a20d3ed244c76426
+- name: 🇨🇭CH-freevpnchina
+  type: vless
+  server: 185.232.117.114
+  port: 443
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  network: tcp
+  udp: true
+  tls: true
+  servername: vl04.skorostnet.space
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: fdda9806fe5d8584
 - name: Domain-new_mtproxi2
   type: vless
   server: thesis.mhub-mc.ir
@@ -927,45 +791,11 @@ proxies:
   reality-opts:
     public-key: 8DGDiqDs99PvQGTjFh4Xu_4DmuKbk5bDJsUb73gEzW0
     short-id: e32df1fa9070e48e
-- name: 🇳🇱NL-oneclickvpnkeys
+- name: 🇷🇺RU-oneclickvpnkeys
   type: vless
-  server: 95.85.248.50
+  server: 45.91.52.125
   port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-west.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
-- name: 🇫🇷FR-oneclickvpnkeys
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: fae272a6-a184-4c91-83ed-771abdcff404
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 5Me9XEMwr9siyrnV5zPHYfxB3QLqw-OzNAOuzkFu1kw
-    short-id: 7af95330630a7327
-- name: 🇩🇪DE-oneclickvpnkeys
-  type: vless
-  server: 162.55.242.208
-  port: 2053
-  uuid: 6deab233-3abc-492a-85c9-503ef4160b47
+  uuid: 3ab2615c-689d-463b-8990-a95013894348
   network: tcp
   udp: true
   tls: true
@@ -976,127 +806,59 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 9lz79Eqetl8jIMyXAXQzH_nItAt68C7VYGevOawpETM
-    short-id: 88c0a94a78c5ef4b
-- name: 🇦🇪AE-oneclickvpnkeys
-  type: vless
-  server: 31.59.125.49
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-central.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-- name: 🇺🇸US-oneclickvpnkeys
-  type: vless
-  server: 162.35.231.130
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  network: tcp
-  udp: true
-  tls: true
-  servername: savesafe.co
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-- name: 🇮🇷IR-oneclickvpnkeys
-  type: vless
-  server: 94.183.157.249
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-central.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-- name: 🇷🇺RU-oneclickvpnkeys
-  type: vless
-  server: 178.248.236.138
-  port: 18443
-  uuid: c7a30b74-560c-4561-8f0b-7d70e85c9b5e
-  network: tcp
-  udp: true
-  tls: true
-  servername: rutube.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: VUc_2yzS6cjaq_MB8TScaCftgT3oJtP6zpotM5yM_Xg
-    short-id: dde21fff
-- name: 🇨🇾CY-oneclickvpnkeys
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-- name: 🇸🇨SC-oneclickvpnkeys
-  type: vless
-  server: 45.192.2.72
-  port: 443
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: 364994a6f61fc955
+    public-key: 8bkjYMx4EXdRTHTgQ6wMaeyGl-HfskzixE0Is-kMQXU
+    short-id: e3c60a1b71b462fa
 - name: Domain-oneclickvpnkeys
   type: vless
-  server: nethnoad.whooisthebest.ir
-  port: 22216
-  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+  server: ned.waldron.ir
+  port: 46142
+  uuid: 255386a8-aec5-4425-bfe7-ca49b7448deb
   network: tcp
   udp: true
   tls: true
-  servername: amp-api-edge.apps.apple.com
+  servername: www.yahoo.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
-    short-id: 0f4412d42129f080
+    public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk
+    short-id: 39feeba3085c
+- name: 🇩🇪DE-oneclickvpnkeys
+  type: vless
+  server: 169.40.42.202
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+- name: 🇨🇾CY-oneclickvpnkeys
+  type: vless
+  server: 45.136.126.70
+  port: 8443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 6f8KzwYy7MVdBKzDM_Wt_SiKEjZyg1dl1zdR_MoUM3M
+    short-id: 67933d8be5b42f78
 - name: 🇬🇧GB-oneclickvpnkeys
   type: vless
   server: 95.154.196.63
@@ -1114,11 +876,113 @@ proxies:
   reality-opts:
     public-key: o3OWFYnKad6q2C-eo6-rA74OCbjQoZfaUFYZsNqJJz0
     short-id: 1e977d0b52eab755
-- name: 🇧🇬BG-oneclickvpnkeys
+- name: 🇨🇦CA-oneclickvpnkeys
   type: vless
-  server: 193.148.59.178
+  server: 66.70.179.198
+  port: 2053
+  uuid: b82a5521-f45f-4d40-92df-86d236eb04f4
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: Xgn5Vcz-gtFFJXJWnGvn22m3Fc2TwoCFLUy_acTQdm8
+    short-id: 5653d14b657a1d0b
+- name: 🇳🇴NO-oneclickvpnkeys
+  type: vless
+  server: 151.242.168.181
   port: 443
-  uuid: 20d7c485-5d24-49b5-a5cc-bb7a7daf9908
+  uuid: 6c52b79f-fd02-41bc-bf75-4c80fbc6a939
+  network: tcp
+  udp: true
+  tls: true
+  servername: kibi-institut.de
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ
+    short-id: 46babe29a750b634
+- name: 🇺🇸US-oneclickvpnkeys
+  type: vless
+  server: 31.76.46.138
+  port: 20422
+  uuid: d8523317-503e-43ad-b2c3-e5f77d725848
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: ZUQTvwYk_hDqSrw36uc18MkeEIXIGZZGsf5XWVwdqAQ
+    short-id: '90'
+- name: 🇦🇹AT-oneclickvpnkeys
+  type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  network: tcp
+  udp: true
+  tls: true
+  servername: at.quattro-tech.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+- name: 🇪🇸ES-oneclickvpnkeys
+  type: vless
+  server: 83.147.18.3
+  port: 443
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+- name: 🇫🇮FI-oneclickvpnkeys
+  type: vless
+  server: 85.192.49.141
+  port: 443
+  uuid: 85cc845e-644c-4148-8288-f0c03c83c1ec
+  network: tcp
+  udp: true
+  tls: true
+  servername: fi.quattro-tech.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+- name: 🇹🇷TR-oneclickvpnkeys
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 52b1aca9-a2ba-4249-9e9f-d488f89c1445
   network: tcp
   udp: true
   tls: true
@@ -1129,246 +993,25 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE
-    short-id: e3daad69
-- name: 🇨🇿CZ-oneclickvpnkeys
+    public-key: dUFJ3jZPMH9WvjtAnUc9wYhO_IX1czIi-CidF_HdFDA
+    short-id: c267be657e1539ea
+- name: 🇵🇱PL-persianvpnhub
   type: vless
-  server: 5.39.202.111
+  server: 83.168.71.216
   port: 443
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
   network: tcp
   udp: true
   tls: true
-  servername: cz.helper-internet.com
+  servername: ads.x5.ru
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-- name: 🇦🇹AT-oneclickvpnkeys
-  type: vless
-  server: 157.173.7.200
-  port: 443
-  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
-  network: tcp
-  udp: true
-  tls: true
-  servername: node-fra02.rkitman.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-    short-id: 88d9dc52ef39c8bd
-- name: 🇹🇷TR-oneclickvpnkeys
-  type: vless
-  server: 194.93.61.97
-  port: 443
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdnjs.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 58fbcddfaae3ade9
-- name: 🇯🇵JP-tv2rayrr
-  type: vless
-  server: 47.245.38.111
-  port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.autodesk.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
-    short-id: 860705e716cbe6ed
-- name: 🇳🇱NL-tv2rayrr
-  type: vless
-  server: 213.176.16.74
-  port: 443
-  uuid: d7fbe279896e40118c23d15fe537dddd
-  network: tcp
-  udp: true
-  tls: true
-  servername: apple.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
-    short-id: aabbccdd
-- name: Domain-tv2rayrr
-  type: vless
-  server: nl2.srv.happvpn.com
-  port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdnjs.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
-- name: 🇨🇦CA-tv2rayrr
-  type: vless
-  server: 81.19.140.245
-  port: 443
-  uuid: 2676e126-8f83-44d0-8307-b06b63f8b007
-  network: tcp
-  udp: true
-  tls: true
-  servername: tunnel.vk-apps.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
-    short-id: 19d1ff9e
-- name: 🇱🇻LV-tv2rayrr
-  type: vless
-  server: 188.253.21.106
-  port: 443
-  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
-  network: tcp
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
-    short-id: 73d3fec4
-- name: 🇷🇺RU-tv2rayrr
-  type: vless
-  server: 193.233.48.92
-  port: 443
-  uuid: b4fbe9de-88f4-4af7-bca0-631ff2883278
-  network: tcp
-  udp: true
-  tls: true
-  servername: tunnel.vk-apps.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY
-    short-id: 6dfeb23c
-- name: 🇰🇿KZ-tv2rayrr
-  type: vless
-  server: 178.236.16.98
-  port: 35728
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  network: tcp
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-- name: 🇭🇰HK-tv2rayrr
-  type: vless
-  server: 154.12.179.154
-  port: 2501
-  uuid: 1555ff9a-837c-4d7f-9b5d-0794c9c31e71
-  network: tcp
-  udp: true
-  tls: true
-  servername: amazon.com
-  client-fingerprint: random
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
-    short-id: b793cdadb1c785
-- name: 🇷🇴RO-tv2rayrr
-  type: vless
-  server: 31.6.1.187
-  port: 25607
-  uuid: c8451b58-6337-4294-ba28-1a33731331a1
-  network: tcp
-  udp: true
-  tls: true
-  servername: store.steampowered.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
-    short-id: '84'
-- name: 🇩🇪DE-tv2rayrr
-  type: vless
-  server: 91.220.8.177
-  port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
-  network: tcp
-  udp: true
-  tls: true
-  servername: m.vk.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
-- name: 🇦🇲AM-tv2rayrr
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
-  network: tcp
-  udp: true
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: 2f49bccf11150ef2
 - name: 🇺🇸US-tv2rayrr
   type: vless
   server: 77.110.119.225
@@ -1386,6 +1029,193 @@ proxies:
   reality-opts:
     public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
     short-id: 07e904766d29b958
+- name: Domain-tv2rayrr
+  type: vless
+  server: de.shvurgceo.online
+  port: 14357
+  uuid: 006f752c-42fe-41dd-a224-e2f7c48b72a9
+  network: tcp
+  udp: true
+  tls: true
+  servername: vk.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
+    short-id: ab12cd34
+- name: 🇳🇱NL-tv2rayrr
+  type: vless
+  server: 213.176.16.74
+  port: 443
+  uuid: d7fbe279896e40118c23d15fe537dddd
+  network: tcp
+  udp: true
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
+    short-id: aabbccdd
+- name: 🇨🇦CA-tv2rayrr
+  type: vless
+  server: 81.19.140.245
+  port: 443
+  uuid: 2676e126-8f83-44d0-8307-b06b63f8b007
+  network: tcp
+  udp: true
+  tls: true
+  servername: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: mxaJHxKKZj-lSN_0W2HeVcqL-zebgk8b--rhUHmy-Hc
+    short-id: 19d1ff9e
+- name: 🇷🇺RU-tv2rayrr
+  type: vless
+  server: 193.233.48.92
+  port: 443
+  uuid: b4fbe9de-88f4-4af7-bca0-631ff2883278
+  network: tcp
+  udp: true
+  tls: true
+  servername: tunnel.vk-apps.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: gFH0rutmQ8EQBMsUlWJ_eeQnkQkazATNPJvsTJnZZiY
+    short-id: 6dfeb23c
+- name: 🇯🇵JP-tv2rayrr
+  type: vless
+  server: 47.245.38.111
+  port: 443
+  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.autodesk.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
+    short-id: 860705e716cbe6ed
+- name: 🇭🇰HK-tv2rayrr
+  type: vless
+  server: 154.12.179.154
+  port: 2501
+  uuid: 1555ff9a-837c-4d7f-9b5d-0794c9c31e71
+  network: tcp
+  udp: true
+  tls: true
+  servername: amazon.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
+    short-id: b793cdadb1c785
+- name: 🇩🇪DE-tv2rayrr
+  type: vless
+  server: 91.220.8.177
+  port: 443
+  uuid: 0eb0019b66404203a7e07701f61bf766
+  network: tcp
+  udp: true
+  tls: true
+  servername: m.vk.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
+    short-id: aabbccdd
+- name: 🇱🇻LV-tv2rayrr
+  type: vless
+  server: 188.253.21.106
+  port: 443
+  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: 73d3fec4
+- name: 🇰🇿KZ-tv2rayrr
+  type: vless
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+- name: 🇦🇲AM-tv2rayrr
+  type: vless
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+- name: 🇷🇴RO-tv2rayrr
+  type: vless
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
+  network: tcp
+  udp: true
+  tls: true
+  servername: store.steampowered.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
 - name: 🇷🇸RS-tv2rayrr
   type: vless
   server: 38.180.17.232
@@ -1403,164 +1233,45 @@ proxies:
   reality-opts:
     public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
     short-id: 3e
-- name: 🇵🇱PL-v2cnf
+- name: 🇨🇾CY-v2cnf
   type: vless
-  server: 45.138.16.56
-  port: 443
-  uuid: 626c0789-16d1-4815-be8b-bd03959d7d12
+  server: 5.253.42.164
+  port: 40443
+  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
   network: tcp
   udp: true
   tls: true
-  servername: pl1.tsumshop.org
+  servername: deepl.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: yDFddhm1RyVbvXv3gS-uQV9QLb2IwamkZ1hckGOag1E
-    short-id: 5ad3f69e926d3ecc
-- name: 🇸🇨SC-v2cnf
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+- name: 🇩🇪DE-v2cnf
   type: vless
-  server: 45.196.193.100
+  server: 91.99.81.222
   port: 443
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
+  uuid: 3c24f155-da29-46a5-850d-d57917ad2792
   network: tcp
   udp: true
   tls: true
-  servername: storage.yandex.net
+  servername: amp-api-edge.apps.apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: 40ce08cf20c67003
-- name: Domain-v2cnf
+    public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo
+    short-id: 4716935a30eac6
+- name: 🇰🇿KZ-v2cnf
   type: vless
-  server: turj2.surup.shop
-  port: 46142
-  uuid: 255386a8-aec5-4425-bfe7-ca49b7448deb
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk
-    short-id: 39feeba3085c
-- name: 🇯🇵JP-v2cnf
-  type: vless
-  server: 45.66.218.187
-  port: 50159
-  uuid: fdb25e5e-d99a-468c-aa13-0fe9892771b6
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: GBSyMDmBSz4C-brs0GYG6HXNb2CyWANvkBrd8W1GDU0
-    short-id: 6b22ad2202d70547
-- name: 🇫🇮FI-v2cnf
-  type: vless
-  server: 83.219.97.128
-  port: 13443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-- name: 🇸🇬SG-v2cnf
-  type: vless
-  server: 178.128.112.70
-  port: 443
-  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: -O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY
-    short-id: 7f7f
-- name: 🇺🇸US-v2cnf
-  type: vless
-  server: 15.204.97.206
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-- name: 🇨🇾CY-v2cnf
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-- name: 🇬🇧GB-v2cnf
-  type: vless
-  server: 138.124.125.211
-  port: 443
-  uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo
-    short-id: 72cceb78
-- name: 🇨🇿CZ-v2cnf
-  type: vless
-  server: 188.127.247.129
-  port: 443
-  uuid: 33aa2b47-484b-49f6-8f23-fb34602d221f
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
   network: tcp
   udp: true
   tls: true
@@ -1571,25 +1282,8 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4
-    short-id: 0c
-- name: 🇳🇱NL-v2cnf
-  type: vless
-  server: 95.85.248.50
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-west.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
 - name: 🇮🇷IR-v2cnf
   type: vless
   server: 94.183.157.203
@@ -1607,33 +1301,169 @@ proxies:
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
     short-id: cbb0a5c1dc905505
-- name: 🇹🇷TR-v2cnf
+- name: 🇭🇰HK-v2cnf
   type: vless
-  server: 194.93.61.95
-  port: 443
-  uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1
+  server: 103.149.183.198
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
   network: tcp
   udp: true
   tls: true
-  servername: cdnjs.com
+  servername: tesla.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+- name: 🇳🇱NL-v2cnf
+  type: vless
+  server: 78.111.89.171
+  port: 443
+  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
+    short-id: cfe08c23a85f24
+- name: 🇫🇮FI-v2cnf
+  type: vless
+  server: 65.109.181.160
+  port: 32855
+  uuid: c8ad63c2-ad18-4655-a8e7-f67dd3a41c2a
+  network: tcp
+  udp: true
+  tls: true
+  servername: amp-api-edge.apps.apple.com
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10
+    short-id: deb7a9e5a6e1d41a
+- name: 🇺🇸US-v2cnf
+  type: vless
+  server: 194.55.189.249
+  port: 40443
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+  network: tcp
+  udp: true
+  tls: true
+  servername: deepl.com
   client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 58fbcddfaae3ade9
-- name: 🇩🇪DE-v2cnf
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+- name: 🇦🇪AE-v2cnf
   type: vless
-  server: 144.31.166.71
+  server: 72.35.246.31
+  port: 1244
+  uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
+  network: tcp
+  udp: true
+  tls: true
+  servername: axisvpn.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
+    short-id: 6ba85179e30d4fc2
+- name: Domain-v2cnf
+  type: vless
+  server: free-amsterdam-node-1.cloudwidecdn.com
+  port: 443
+  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+    short-id: 1d86d17709852910
+- name: 🇯🇵JP-v2cnf
+  type: vless
+  server: 3.114.220.22
+  port: 10583
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+- name: 🇸🇪SE-v2cnf
+  type: vless
+  server: 172.232.142.156
+  port: 32855
+  uuid: 14337163-3c81-4aa8-b048-bed99a24ec81
+  network: tcp
+  udp: true
+  tls: true
+  servername: amp-api-edge.apps.apple.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10
+    short-id: deb7a9e5a6e1d41a
+- name: 🇨🇦CA-v2cnf
+  type: vless
+  server: 216.152.147.28
+  port: 443
+  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
+    short-id: b9f8d3f8
+- name: 🇹🇷TR-v2cnf
+  type: vless
+  server: 193.124.45.154
   port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   network: tcp
   udp: true
   tls: true
   servername: eu-central.cendora.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
@@ -1641,26 +1471,43 @@ proxies:
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
     short-id: 00bca5982f82d083
-- name: 🇫🇷FR-v2cnf
+- name: 🇳🇴NO-v2cnf
   type: vless
-  server: 77.221.152.100
+  server: 194.110.207.48
   port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  uuid: 14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0
   network: tcp
   udp: true
   tls: true
-  servername: node14.mxvpn.dev
-  client-fingerprint: firefox
+  servername: kibi-institut.de
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+- name: 🇨🇭CH-v2cnf
+  type: vless
+  server: 2.26.135.193
+  port: 443
+  uuid: 627b1c2d-2905-470f-857a-da7589968fbc
+  network: tcp
+  udp: true
+  tls: true
+  servername: smorodina.mycdn-me.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
+    short-id: a1f9c0e21d7b6485
 - name: 🇳🇱NL-v2ray_extractor
   type: vless
-  server: 51.158.206.86
+  server: 51.158.206.29
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -1692,40 +1539,6 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
-- name: 🇫🇷FR-v2ray_extractor
-  type: vless
-  server: 62.210.91.10
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  udp: true
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-- name: 🇩🇪DE-v2ray_extractor
-  type: vless
-  server: 193.58.121.95
-  port: 2053
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
-  network: tcp
-  udp: true
-  tls: true
-  servername: vk.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 6RshLCSAs31qGRa_tWi63KClbh2Kzj9ooXpdaPJKbjs
-    short-id: a6bbc4aecf5d961f
 - name: 🇱🇻LV-v2ray_extractor
   type: vless
   server: 89.36.161.222
@@ -1743,6 +1556,40 @@ proxies:
   reality-opts:
     public-key: cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg
     short-id: d26f4703cdd30f4e
+- name: 🇩🇪DE-v2ray_extractor
+  type: vless
+  server: 193.58.121.95
+  port: 2053
+  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+  network: tcp
+  udp: true
+  tls: true
+  servername: vk.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 6RshLCSAs31qGRa_tWi63KClbh2Kzj9ooXpdaPJKbjs
+    short-id: a6bbc4aecf5d961f
+- name: 🇫🇷FR-v2ray_extractor
+  type: vless
+  server: 161.97.160.224
+  port: 443
+  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
+  network: tcp
+  udp: true
+  tls: true
+  servername: passport.yandex.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
+    short-id: e6
 - name: Domain-v2ray_extractor
   type: vless
   server: laoye.in-gect.fun
@@ -1760,23 +1607,23 @@ proxies:
   reality-opts:
     public-key: cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg
     short-id: d26f4703cdd30f4e
-- name: 🇳🇱NL-v2raynplus
+- name: 🇺🇸US-v2raynplus
   type: vless
-  server: 195.184.247.226
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  server: 72.56.92.177
+  port: 40443
+  uuid: 4480161e-2c59-4d37-8736-675c9af32bf1
   network: tcp
   udp: true
   tls: true
-  servername: savesafe.co
-  client-fingerprint: firefox
+  servername: deepl.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
+    public-key: fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y
+    short-id: 01d1bf2d4755d40c
 - name: Domain-v2raynplus
   type: vless
   server: cdn.netraidly.ru
@@ -1794,50 +1641,16 @@ proxies:
   reality-opts:
     public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
     short-id: c84f
-- name: 🇺🇸US-v2raynplus
-  type: vless
-  server: 72.56.81.165
-  port: 40443
-  uuid: 4bf5a71c-d726-4585-b095-7396675706d5
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
-    short-id: c84f
-- name: 🇧🇷BR-v2raynplus
-  type: vless
-  server: 177.3.213.91
-  port: 8443
-  uuid: b98e3ee9-a67f-465a-a8f9-1e59e3cda6a8
-  network: tcp
-  udp: true
-  tls: true
-  servername: b2.cryptoofarm.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: K28I3JdleSg0t7keUUZrS1CgtyC37WA32ViMkSXywHw
-    short-id: 0c22c11e7224
 - name: 🇩🇪DE-v2raynplus
   type: vless
-  server: 169.40.42.15
+  server: 169.40.42.173
   port: 443
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
   udp: true
   tls: true
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: ios
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
@@ -1845,74 +1658,40 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: 🇸🇬SG-v2raynplus
+- name: 🇬🇧GB-v2raynplus
   type: vless
-  server: 91.192.81.214
+  server: 87.239.249.137
   port: 443
-  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
   network: tcp
   udp: true
   tls: true
-  servername: www.cloudflare.com
+  servername: www.foxsports.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
-    short-id: d1742269
-- name: 🇫🇷FR-v2raynplus
+    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
+    short-id: 91af08b1ce1f
+- name: 🇳🇱NL-v2raynplus
   type: vless
-  server: 62.210.91.10
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 85.155.226.27
+  port: 443
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
   network: tcp
   udp: true
   tls: true
-  servername: fuck.rkn
+  servername: getsavesafe.net
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-- name: 🇸🇨SC-v2raynplus
-  type: vless
-  server: 45.155.68.234
-  port: 13868
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  network: tcp
-  udp: true
-  tls: true
-  servername: yoox.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: xbCFPD2Gk3HP6EwfFT_0W3D_-biFaz10wlPc2h3y6QQ
-    short-id: e852dc
-- name: 🇨🇾CY-v2raynplus
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: 82f5d3a1e9c0b661
 - name: 🇵🇱PL-v2raynplus
   type: vless
   server: 83.168.71.216
@@ -1930,108 +1709,40 @@ proxies:
   reality-opts:
     public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
     short-id: 2f49bccf11150ef2
-- name: 🇨🇿CZ-v2raynplus
+- name: 🇪🇬EG-v2raynplus
   type: vless
-  server: 194.87.220.242
-  port: 8443
-  uuid: f4540796-ce50-4c2b-a41c-58f18f36ab96
-  network: tcp
-  udp: true
-  tls: true
-  servername: nltw6.lckdwn.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: k2gF2ZrpECMogTk1dY1uQ_BaWuyUVRTrewS-dnRL53s
-    short-id: 5ae57d5673
-- name: 🇪🇪EE-v2raynplus
-  type: vless
-  server: 5.180.40.9
+  server: 192.88.182.105
   port: 443
-  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
+  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
   network: tcp
   udp: true
   tls: true
-  servername: cloud.mail.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE
-    short-id: dfbfa87e9f37f1f0
-- name: 🇦🇪AE-v2raynplus
-  type: vless
-  server: 72.35.246.31
-  port: 1244
-  uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
-  network: tcp
-  udp: true
-  tls: true
-  servername: axisvpn.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
-    short-id: 6ba85179e30d4fc2
-- name: 🇬🇧GB-v2raynplus
-  type: vless
-  server: 87.117.234.19
-  port: 443
-  uuid: 4d583b2c-2f5a-47d0-8181-e95217fe8cd9
-  network: tcp
-  udp: true
-  tls: true
-  servername: strapi.io
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-- name: 🇸🇪SE-v2raynplus
-  type: vless
-  server: 164.37.104.234
-  port: 443
-  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
-  network: tcp
-  udp: true
-  tls: true
-  servername: gb1.murhost.network
+  servername: node-nd01.rkitman.ru
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: -nB-tCeZ4Zr72ArHUKnbUphbs4PlBS6iId6PkrPQQTE
-    short-id: 84f9881951050a30
-- name: 🇷🇺RU-v2raynplus
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+- name: 🇨🇾CY-v2raynplus
   type: vless
-  server: 85.198.70.200
-  port: 14406
-  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+  server: 5.253.42.163
+  port: 40443
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
   network: tcp
   udp: true
   tls: true
-  servername: vk.ru
-  client-fingerprint: edge
+  servername: deepl.com
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
-    short-id: 1a2b3c4d5e6f7a8b
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
 - name: 🇲🇩MD-v2raynplus
   type: vless
   server: 144.31.131.241
@@ -2049,23 +1760,142 @@ proxies:
   reality-opts:
     public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
     short-id: a20d3ed244c76426
-- name: 🇨🇦CA-v2raynplus
+- name: 🇫🇷FR-v2raynplus
   type: vless
-  server: 158.69.112.254
+  server: 62.133.62.179
   port: 443
-  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+  uuid: d67af820-f54c-48ab-862c-19086357f276
   network: tcp
   udp: true
   tls: true
-  servername: www.speedtest.net
+  servername: telegraf.lv
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: e5f67890
+- name: 🇧🇷BR-v2raynplus
+  type: vless
+  server: 177.3.213.91
+  port: 8443
+  uuid: b98e3ee9-a67f-465a-a8f9-1e59e3cda6a8
+  network: tcp
+  udp: true
+  tls: true
+  servername: b2.cryptoofarm.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
-    short-id: 3d3c1e645f763ee3
+    public-key: K28I3JdleSg0t7keUUZrS1CgtyC37WA32ViMkSXywHw
+    short-id: 0c22c11e7224
+- name: 🇨🇦CA-v2raynplus
+  type: vless
+  server: 130.107.73.148
+  port: 41373
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+  network: tcp
+  udp: true
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+- name: 🇦🇪AE-v2raynplus
+  type: vless
+  server: 72.35.246.31
+  port: 1244
+  uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902
+  network: tcp
+  udp: true
+  tls: true
+  servername: axisvpn.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ
+    short-id: 6ba85179e30d4fc2
+- name: 🇸🇬SG-v2raynplus
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
+- name: 🇪🇪EE-v2raynplus
+  type: vless
+  server: 95.85.224.51
+  port: 443
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+  network: tcp
+  udp: true
+  tls: true
+  servername: max.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+- name: 🇸🇨SC-v2raynplus
+  type: vless
+  server: 154.222.9.228
+  port: 443
+  uuid: 457ebbd7-2059-4288-b7dd-dd3b7628bf45
+  network: tcp
+  udp: true
+  tls: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 5be97fb85093a3a9
+- name: 🇷🇺RU-v2raynplus
+  type: vless
+  server: 85.198.70.200
+  port: 14406
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+  network: tcp
+  udp: true
+  tls: true
+  servername: vk.ru
+  client-fingerprint: edge
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
+    short-id: 1a2b3c4d5e6f7a8b
 - name: 🇻🇬VG-v2raynplus
   type: vless
   server: 185.221.163.211
@@ -2083,6 +1913,23 @@ proxies:
   reality-opts:
     public-key: lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg
     short-id: aaec521b22bbe6cb
+- name: 🇸🇪SE-v2raynplus
+  type: vless
+  server: 164.37.104.234
+  port: 443
+  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+  network: tcp
+  udp: true
+  tls: true
+  servername: gb1.murhost.network
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: -nB-tCeZ4Zr72ArHUKnbUphbs4PlBS6iId6PkrPQQTE
+    short-id: 84f9881951050a30
 - name: 🇰🇿KZ-v2raynplus
   type: vless
   server: 77.73.232.61
@@ -2100,130 +1947,96 @@ proxies:
   reality-opts:
     public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
     short-id: '2001'
-- name: 🇺🇸US-v2roay
+- name: Domain-v2roay
   type: vless
-  server: 31.76.111.113
-  port: 7777
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   network: tcp
   udp: true
   tls: true
-  servername: console.cloud.yandex.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 4iWZChsH0rnqtn89xiB1evDLkFjmgh-3WYjx8cknZC0
-    short-id: a8b9c0d1e2f34567
-- name: 🇹🇷TR-v2roay
-  type: vless
-  server: 194.93.61.100
-  port: 443
-  uuid: 41e71ba7-d389-47aa-94f7-ed1f55fdbcdf
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdnjs.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ
-    short-id: 17d334ad29b2ff40
-- name: 🇳🇱NL-v2roay
-  type: vless
-  server: 195.184.247.226
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  network: tcp
-  udp: true
-  tls: true
-  servername: savesafe.co
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-- name: 🇨🇾CY-v2roay
-  type: vless
-  server: 5.253.28.189
-  port: 13443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-- name: 🇸🇨SC-v2roay
-  type: vless
-  server: 45.195.111.108
-  port: 443
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: f4b4a6365558ea2e
-- name: 🇩🇪DE-v2roay
-  type: vless
-  server: 45.134.38.204
-  port: 8064
-  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.amd.com
+  servername: sg2-8sb.6121999.dpdns.org
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
-    short-id: d3aea86e1949
-- name: 🇩🇰DK-v2roay
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+- name: 🇯🇵JP-v2roay
   type: vless
-  server: 46.29.235.9
-  port: 443
-  uuid: d67af820-f54c-48ab-862c-19086357f276
+  server: 154.19.187.249
+  port: 20725
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
   network: tcp
   udp: true
   tls: true
-  servername: telegraf.lv
+  servername: buylite.tv.apple.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: 0102ac4e
+- name: 🇺🇸US-v2roay
+  type: vless
+  server: 144.31.242.1
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+- name: 🇳🇱NL-v2roay
+  type: vless
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+- name: 🇵🇱PL-v2roay
+  type: vless
+  server: 54.38.138.175
+  port: 443
+  uuid: b2e8f455-3bd9-477c-b8f0-a3198f601565
+  network: tcp
+  udp: true
+  tls: true
+  servername: play.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: LrDYMSt1pt2h6n-7YnHpcUAb_IG7QsQ0rfXz8RqkfCY
+    short-id: 9e0fac51cc19d2
 - name: 🇳🇴NO-v2roay
   type: vless
-  server: 194.110.207.48
+  server: 151.242.168.181
   port: 443
-  uuid: 8a00b922-5cb0-4c59-bc54-96738f8e47dc
+  uuid: 6c52b79f-fd02-41bc-bf75-4c80fbc6a939
   network: tcp
   udp: true
   tls: true
@@ -2234,161 +2047,42 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-- name: 🇹🇼TW-v2roay
+    public-key: urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ
+    short-id: 46babe29a750b634
+- name: 🇫🇷FR-v2roay
   type: vless
-  server: 45.121.50.241
-  port: 50159
-  uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
+  server: 62.210.91.10
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   udp: true
   tls: true
-  servername: www.cloudflare.com
+  servername: fuck.rkn
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
-    short-id: 4c3f80051030ba1b
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
 - name: 🇬🇧GB-v2roay
   type: vless
-  server: 95.154.196.61
+  server: 95.154.237.50
   port: 443
-  uuid: e5d917f5-fc78-455e-bbb5-81d08715f3d6
+  uuid: 3d821554-a3c5-4d0a-9321-611ecb1ec90b
   network: tcp
   udp: true
   tls: true
-  servername: strapi.io
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 2ATxqiR22wlo3yXOHc43LFHM5NzWCdSGZLdBay_vJgM
-    short-id: e4a1b53b03eff60d
-- name: 🇷🇺RU-v2roay
-  type: vless
-  server: 85.198.70.200
-  port: 14406
-  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
-  network: tcp
-  udp: true
-  tls: true
-  servername: vk.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
-    short-id: 1a2b3c4d5e6f7a8b
-- name: 🇮🇪IE-v2roay
-  type: vless
-  server: 84.238.133.104
-  port: 443
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-  network: tcp
-  udp: true
-  tls: true
-  servername: swed2.helper-internet.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-    short-id: 6aa2d2e950441a9a
-- name: Domain-v2roay
-  type: vless
-  server: node21.mxvpn.dev
-  port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  network: tcp
-  udp: true
-  tls: true
-  servername: node21.mxvpn.dev
+  servername: lanacion.com.ar
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-- name: 🇦🇪AE-v2roay
-  type: vless
-  server: 94.183.255.157
-  port: 443
-  uuid: 41e71ba7-d389-47aa-94f7-ed1f55fdbcdf
-  network: tcp
-  udp: true
-  tls: true
-  servername: cdnjs.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ
-    short-id: 17d334ad29b2ff40
-- name: 🇪🇸ES-v2roay
-  type: vless
-  server: 83.147.18.3
-  port: 443
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-- name: 🇭🇰HK-v2roay
-  type: vless
-  server: 103.149.183.198
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  network: tcp
-  udp: true
-  tls: true
-  servername: tesla.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-- name: 🇮🇳IN-v2roay
-  type: vless
-  server: 148.113.5.44
-  port: 443
-  uuid: 72ea5a91-ffcc-43d2-9297-5993c3abf186
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
-    short-id: 221873918e0bb74d
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
 - name: 🇱🇻LV-v2roay
   type: vless
   server: 89.36.161.222
@@ -2398,7 +2092,7 @@ proxies:
   udp: true
   tls: true
   servername: vk.ru
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
@@ -2406,6 +2100,57 @@ proxies:
   reality-opts:
     public-key: cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg
     short-id: d26f4703cdd30f4e
+- name: 🇩🇪DE-v2roay
+  type: vless
+  server: 169.40.42.104
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+- name: 🇬🇷GR-v2roay
+  type: vless
+  server: 85.90.197.131
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+- name: 🇪🇪EE-v2roay
+  type: vless
+  server: 5.180.40.9
+  port: 443
+  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
+  network: tcp
+  udp: true
+  tls: true
+  servername: cloud.mail.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE
+    short-id: dfbfa87e9f37f1f0
 - name: 🇸🇪SE-v2roay
   type: vless
   server: 2.26.101.64
@@ -2423,40 +2168,142 @@ proxies:
   reality-opts:
     public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
     short-id: 2186a755ed67b034
-- name: 🇫🇮FI-v2roay
+- name: 🇭🇰HK-v2roay
   type: vless
-  server: 83.219.97.128
-  port: 13443
+  server: 103.149.183.198
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  network: tcp
+  udp: true
+  tls: true
+  servername: tesla.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+- name: 🇰🇬KG-v2roay
+  type: vless
+  server: 81.85.75.85
+  port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   network: tcp
   udp: true
   tls: true
-  servername: auto.cendora.ru
+  servername: baltic.cendora.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+- name: 🇦🇪AE-v2roay
+  type: vless
+  server: 151.242.160.111
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
   client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-- name: 🇬🇷GR-v2roay
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+- name: 🇷🇺RU-v2roay
   type: vless
-  server: 94.241.174.157
-  port: 40443
-  uuid: 8ac637bf-554e-4902-94d7-baf01780a83c
+  server: 85.198.70.200
+  port: 14406
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
   network: tcp
   udp: true
   tls: true
-  servername: deepl.com
-  client-fingerprint: firefox
+  servername: vk.ru
+  client-fingerprint: qq
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ
-    short-id: beb4
+    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
+    short-id: 1a2b3c4d5e6f7a8b
+- name: 🇸🇬SG-v2roay
+  type: vless
+  server: 178.128.112.70
+  port: 443
+  uuid: 9206ae06-88ee-49b1-a558-531ade80fcaa
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: -O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY
+    short-id: 7f7f
+- name: 🇮🇷IR-v2roay
+  type: vless
+  server: 94.183.157.249
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  network: tcp
+  udp: true
+  tls: true
+  servername: eu-central.cendora.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+- name: 🇹🇼TW-v2roay
+  type: vless
+  server: 45.121.50.241
+  port: 50159
+  uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE
+    short-id: 4c3f80051030ba1b
+- name: 🇰🇷KR-v2roay
+  type: vless
+  server: 119.28.161.143
+  port: 443
+  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
+  network: tcp
+  udp: true
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
+    short-id: 0a427bc3
 - name: 🇺🇦UA-v2roay
   type: vless
   server: 5.34.182.23
@@ -2474,40 +2321,6 @@ proxies:
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
     short-id: 00bca5982f82d083
-- name: 🇫🇷FR-v2roay
-  type: vless
-  server: 77.221.152.100
-  port: 443
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  network: tcp
-  udp: true
-  tls: true
-  servername: node14.mxvpn.dev
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-- name: 🇨🇾CY-vpnbaz
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  network: tcp
-  udp: true
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
 - name: Domain-vpnbaz
   type: vless
   server: turj2.surup.shop
@@ -2525,11 +2338,62 @@ proxies:
   reality-opts:
     public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk
     short-id: 39feeba3085c
-- name: 🇺🇸US-whitedns
+- name: 🇦🇹AT-vpnbaz
   type: vless
-  server: 170.101.109.37
+  server: 157.173.7.200
   port: 443
-  uuid: bf645ffe-a3cc-4480-8e4c-9bcd1af41052
+  uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81
+  network: tcp
+  udp: true
+  tls: true
+  servername: node-fra02.rkitman.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: 88d9dc52ef39c8bd
+- name: 🇵🇱PL-vpnbaz
+  type: vless
+  server: 83.168.71.216
+  port: 443
+  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
+  network: tcp
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: 2f49bccf11150ef2
+- name: 🇪🇸ES-vpnbaz
+  type: vless
+  server: 193.238.154.18
+  port: 443
+  uuid: 2297ea1f-2415-4a2c-be20-4a3a978283a2
+  network: tcp
+  udp: true
+  tls: true
+  servername: es1.hat.onl
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
+    short-id: 76132b3b39704c44
+- name: 🇸🇬SG-whitedns
+  type: vless
+  server: 91.192.81.214
+  port: 443
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
   network: tcp
   udp: true
   tls: true
@@ -2540,25 +2404,25 @@ proxies:
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: rTnh7Y8RsSA5HSvFf-pWT49x8va6U6XHMRgNiMuwB0A
-    short-id: ab88d256
-- name: 🇬🇧GB-whitedns
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: d1742269
+- name: 🇨🇦CA-whitedns
   type: vless
-  server: 95.154.237.50
+  server: 51.161.199.124
   port: 443
-  uuid: 9c0d8a49-4c47-4210-8f01-d251028d88d1
+  uuid: 61e7c286-6b7d-4667-955c-430d89979c4d
   network: tcp
   udp: true
   tls: true
-  servername: lanacion.com.ar
-  client-fingerprint: ios
+  servername: suetinklerartglass.co.uk
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
+    public-key: qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0
+    short-id: 0f4d3210977f51a5
 - name: 🇳🇱NL-whitedns
   type: vless
   server: 51.158.206.86
@@ -2576,6 +2440,108 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
+- name: Domain-whitedns
+  type: vless
+  server: gr068.techinyab.ir
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  network: tcp
+  udp: true
+  tls: true
+  servername: play.google.com
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+    short-id: 98fa0b00d09419f7
+- name: 🇬🇧GB-whitedns
+  type: vless
+  server: 95.154.237.47
+  port: 443
+  uuid: b113f831-8658-467f-a819-927d16a54d6a
+  network: tcp
+  udp: true
+  tls: true
+  servername: lanacion.com.ar
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+- name: 🇺🇸US-whitedns
+  type: vless
+  server: 204.48.20.223
+  port: 30906
+  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+  network: tcp
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
+    short-id: 17a94dc584e3
+- name: 🇫🇷FR-whitedns
+  type: vless
+  server: 213.136.92.67
+  port: 443
+  uuid: af348651-1624-4710-b55f-0307a22d891f
+  network: tcp
+  udp: true
+  tls: true
+  servername: status.play.google.com
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo
+    short-id: '5030'
+- name: 🇰🇷KR-whitedns
+  type: vless
+  server: 119.28.161.143
+  port: 443
+  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
+  network: tcp
+  udp: true
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
+    short-id: 0a427bc3
+- name: 🇵🇱PL-whitedns
+  type: vless
+  server: 54.38.138.175
+  port: 443
+  uuid: b2e8f455-3bd9-477c-b8f0-a3198f601565
+  network: tcp
+  udp: true
+  tls: true
+  servername: play.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: LrDYMSt1pt2h6n-7YnHpcUAb_IG7QsQ0rfXz8RqkfCY
+    short-id: 9e0fac51cc19d2
 - name: 🇩🇪DE-whitedns
   type: vless
   server: 167.233.219.201
@@ -2593,125 +2559,74 @@ proxies:
   reality-opts:
     public-key: 3ei2ET7SLe8rAO3KOlUWyXy0U22zb86VNOqUCshRVl8
     short-id: f648da8196bdb32e
-- name: 🇫🇷FR-whitedns
+- name: 🇦🇹AT-whitedns
   type: vless
-  server: 51.38.82.1
+  server: 152.53.1.40
   port: 443
-  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
   network: tcp
   udp: true
   tls: true
-  servername: play.google.com
+  servername: at.quattro-tech.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  benchmark-url: http://www.gstatic.com/generate_204
+  benchmark-timeout: 6
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+- name: 🇷🇺RU-whitedns
+  type: vless
+  server: 147.45.173.79
+  port: 443
+  uuid: 0d803b03-f82e-4f5f-a2a2-e207fe9b27b7
+  network: tcp
+  udp: true
+  tls: true
+  servername: app.restorium.su
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
-    short-id: 98fa0b00d09419f7
-- name: 🇦🇪AE-whitedns
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+- name: 🇱🇹LT-whitedns
   type: vless
-  server: 151.242.160.111
+  server: 88.119.176.24
   port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   network: tcp
   udp: true
   tls: true
-  servername: eu-central.cendora.ru
+  servername: lit9.helper-internet.com
   client-fingerprint: firefox
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-- name: 🇨🇭CH-whitedns
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+- name: 🇯🇵JP-whitedns
   type: vless
-  server: 2.26.135.193
-  port: 443
-  uuid: 627b1c2d-2905-470f-857a-da7589968fbc
+  server: 13.193.205.133
+  port: 27407
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
   network: tcp
   udp: true
   tls: true
-  servername: smorodina.mycdn-me.ru
+  servername: bgcpartners.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   skip-cert-verify: true
   benchmark-url: http://www.gstatic.com/generate_204
   benchmark-timeout: 6
   reality-opts:
-    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
-    short-id: a1f9c0e21d7b6485
-- name: Domain-whitedns
-  type: vless
-  server: nl-74.southnetworks.cloud
-  port: 443
-  uuid: eaae5be2-8a3b-4edb-a968-39366a478ab2
-  network: tcp
-  udp: true
-  tls: true
-  servername: nl-74.southnets.work
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 3e_yPFFI_hf_CmzsfdElJHdI9HlVaULKWanfMYY5qB0
-    short-id: 65201ddbe0cef5
-- name: 🇸🇨SC-whitedns
-  type: vless
-  server: 45.192.2.72
-  port: 443
-  uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61
-  network: tcp
-  udp: true
-  tls: true
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: 364994a6f61fc955
-- name: 🇿🇦ZA-whitedns
-  type: vless
-  server: 109.121.44.81
-  port: 443
-  uuid: 6179ce37-97b2-4ac7-9591-b4b2bfaca09d
-  network: tcp
-  udp: true
-  tls: true
-  servername: www.amd.com
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 0a4b7c3d
-- name: 🇨🇿CZ-whitedns
-  type: vless
-  server: 103.119.19.208
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  network: tcp
-  udp: true
-  tls: true
-  servername: eu-central.cendora.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  benchmark-url: http://www.gstatic.com/generate_204
-  benchmark-timeout: 6
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: e6ac18b63f23
 proxy-groups:
 - name: AUTO-IRAN
   type: url-test
@@ -2719,326 +2634,316 @@ proxy-groups:
   interval: 120
   tolerance: 100
   proxies:
-  - 🇺🇸US-ConfigX2ray
-  - 🇳🇱NL-ConfigX2ray
-  - Domain-ConfigX2ray
-  - 🇨🇿CZ-ConfigX2ray
   - 🇹🇷TR-FreakConfig
-  - 🇮🇷IR-FreakConfig
-  - 🇯🇵JP-FreakConfig
+  - 🇳🇴NO-FreakConfig
   - Domain-FreakConfig
+  - 🇨🇭CH-FreakConfig
+  - 🇮🇷IR-FreakConfig
   - 🇳🇱NL-FreakConfig
-  - 🇺🇸US-FreakConfig
-  - 🇺🇸US-Maznet
   - 🇫🇮FI-Maznet
+  - 🇺🇸US-Maznet
   - 🇹🇷TR-Maznet
-  - 🇩🇪DE-NetAccount
-  - 🇸🇨SC-NetShot1
-  - Domain-NetShot1
-  - 🇳🇱NL-NetShot1
-  - 🇸🇬SG-NetShot1
   - 🇷🇴RO-NetShot1
-  - 🇺🇸US-artemisvpn1
-  - 🇭🇰HK-dingyue_center
+  - 🇸🇬SG-NetShot1
+  - Domain-NetShot1
+  - 🇦🇹AT-NetShot1
+  - 🇳🇱NL-NetShot1
+  - 🇸🇨SC-NetShot1
   - Domain-dingyue_center
-  - 🇷🇺RU-freevpnchina
-  - 🇸🇬SG-freevpnchina
-  - 🇳🇴NO-freevpnchina
-  - 🇩🇪DE-freevpnchina
-  - Domain-freevpnchina
-  - 🇳🇱NL-freevpnchina
-  - 🇫🇷FR-freevpnchina
-  - 🇬🇧GB-freevpnchina
-  - 🇪🇸ES-freevpnchina
-  - 🇸🇪SE-freevpnchina
-  - 🇺🇸US-freevpnchina
-  - 🇦🇪AE-freevpnchina
+  - 🇭🇰HK-dingyue_center
   - 🇯🇵JP-freevpnchina
-  - 🇹🇷TR-freevpnchina
+  - 🇬🇧GB-freevpnchina
+  - 🇸🇪SE-freevpnchina
+  - 🇳🇴NO-freevpnchina
   - 🇪🇪EE-freevpnchina
-  - 🇬🇷GR-freevpnchina
-  - 🇰🇷KR-freevpnchina
-  - 🇺🇦UA-freevpnchina
+  - 🇳🇱NL-freevpnchina
+  - 🇸🇬SG-freevpnchina
+  - 🇪🇸ES-freevpnchina
+  - Domain-freevpnchina
   - 🇫🇮FI-freevpnchina
-  - 🇱🇹LT-freevpnchina
+  - 🇩🇪DE-freevpnchina
   - 🇮🇳IN-freevpnchina
+  - 🇷🇺RU-freevpnchina
+  - 🇺🇦UA-freevpnchina
+  - 🇺🇸US-freevpnchina
+  - 🇰🇷KR-freevpnchina
   - 🇨🇾CY-freevpnchina
-  - 🇩🇰DK-freevpnchina
-  - 🇲🇩MD-freevpnchina
+  - 🇫🇷FR-freevpnchina
+  - 🇦🇪AE-freevpnchina
   - 🇭🇰HK-freevpnchina
-  - 🇹🇼TW-freevpnchina
-  - 🇨🇭CH-freevpnchina
-  - 🇱🇻LV-freevpnchina
-  - 🇦🇹AT-freevpnchina
+  - 🇩🇰DK-freevpnchina
+  - 🇱🇹LT-freevpnchina
+  - 🇬🇷GR-freevpnchina
   - 🇨🇿CZ-freevpnchina
+  - 🇦🇹AT-freevpnchina
+  - 🇲🇩MD-freevpnchina
+  - 🇨🇭CH-freevpnchina
   - Domain-new_mtproxi2
-  - 🇳🇱NL-oneclickvpnkeys
-  - 🇫🇷FR-oneclickvpnkeys
-  - 🇩🇪DE-oneclickvpnkeys
-  - 🇦🇪AE-oneclickvpnkeys
-  - 🇺🇸US-oneclickvpnkeys
-  - 🇮🇷IR-oneclickvpnkeys
   - 🇷🇺RU-oneclickvpnkeys
-  - 🇨🇾CY-oneclickvpnkeys
-  - 🇸🇨SC-oneclickvpnkeys
   - Domain-oneclickvpnkeys
+  - 🇩🇪DE-oneclickvpnkeys
+  - 🇨🇾CY-oneclickvpnkeys
   - 🇬🇧GB-oneclickvpnkeys
-  - 🇧🇬BG-oneclickvpnkeys
-  - 🇨🇿CZ-oneclickvpnkeys
+  - 🇨🇦CA-oneclickvpnkeys
+  - 🇳🇴NO-oneclickvpnkeys
+  - 🇺🇸US-oneclickvpnkeys
   - 🇦🇹AT-oneclickvpnkeys
+  - 🇪🇸ES-oneclickvpnkeys
+  - 🇫🇮FI-oneclickvpnkeys
   - 🇹🇷TR-oneclickvpnkeys
-  - 🇯🇵JP-tv2rayrr
-  - 🇳🇱NL-tv2rayrr
-  - Domain-tv2rayrr
-  - 🇨🇦CA-tv2rayrr
-  - 🇱🇻LV-tv2rayrr
-  - 🇷🇺RU-tv2rayrr
-  - 🇰🇿KZ-tv2rayrr
-  - 🇭🇰HK-tv2rayrr
-  - 🇷🇴RO-tv2rayrr
-  - 🇩🇪DE-tv2rayrr
-  - 🇦🇲AM-tv2rayrr
+  - 🇵🇱PL-persianvpnhub
   - 🇺🇸US-tv2rayrr
+  - Domain-tv2rayrr
+  - 🇳🇱NL-tv2rayrr
+  - 🇨🇦CA-tv2rayrr
+  - 🇷🇺RU-tv2rayrr
+  - 🇯🇵JP-tv2rayrr
+  - 🇭🇰HK-tv2rayrr
+  - 🇩🇪DE-tv2rayrr
+  - 🇱🇻LV-tv2rayrr
+  - 🇰🇿KZ-tv2rayrr
+  - 🇦🇲AM-tv2rayrr
+  - 🇷🇴RO-tv2rayrr
   - 🇷🇸RS-tv2rayrr
-  - 🇵🇱PL-v2cnf
-  - 🇸🇨SC-v2cnf
+  - 🇨🇾CY-v2cnf
+  - 🇩🇪DE-v2cnf
+  - 🇰🇿KZ-v2cnf
+  - 🇮🇷IR-v2cnf
+  - 🇭🇰HK-v2cnf
+  - 🇳🇱NL-v2cnf
+  - 🇫🇮FI-v2cnf
+  - 🇺🇸US-v2cnf
+  - 🇦🇪AE-v2cnf
   - Domain-v2cnf
   - 🇯🇵JP-v2cnf
-  - 🇫🇮FI-v2cnf
-  - 🇸🇬SG-v2cnf
-  - 🇺🇸US-v2cnf
-  - 🇨🇾CY-v2cnf
-  - 🇬🇧GB-v2cnf
-  - 🇨🇿CZ-v2cnf
-  - 🇳🇱NL-v2cnf
-  - 🇮🇷IR-v2cnf
+  - 🇸🇪SE-v2cnf
+  - 🇨🇦CA-v2cnf
   - 🇹🇷TR-v2cnf
-  - 🇩🇪DE-v2cnf
-  - 🇫🇷FR-v2cnf
+  - 🇳🇴NO-v2cnf
+  - 🇨🇭CH-v2cnf
   - 🇳🇱NL-v2ray_extractor
   - 🇺🇸US-v2ray_extractor
-  - 🇫🇷FR-v2ray_extractor
-  - 🇩🇪DE-v2ray_extractor
   - 🇱🇻LV-v2ray_extractor
+  - 🇩🇪DE-v2ray_extractor
+  - 🇫🇷FR-v2ray_extractor
   - Domain-v2ray_extractor
-  - 🇳🇱NL-v2raynplus
-  - Domain-v2raynplus
   - 🇺🇸US-v2raynplus
-  - 🇧🇷BR-v2raynplus
+  - Domain-v2raynplus
   - 🇩🇪DE-v2raynplus
-  - 🇸🇬SG-v2raynplus
-  - 🇫🇷FR-v2raynplus
-  - 🇸🇨SC-v2raynplus
-  - 🇨🇾CY-v2raynplus
-  - 🇵🇱PL-v2raynplus
-  - 🇨🇿CZ-v2raynplus
-  - 🇪🇪EE-v2raynplus
-  - 🇦🇪AE-v2raynplus
   - 🇬🇧GB-v2raynplus
-  - 🇸🇪SE-v2raynplus
-  - 🇷🇺RU-v2raynplus
+  - 🇳🇱NL-v2raynplus
+  - 🇵🇱PL-v2raynplus
+  - 🇪🇬EG-v2raynplus
+  - 🇨🇾CY-v2raynplus
   - 🇲🇩MD-v2raynplus
+  - 🇫🇷FR-v2raynplus
+  - 🇧🇷BR-v2raynplus
   - 🇨🇦CA-v2raynplus
+  - 🇦🇪AE-v2raynplus
+  - 🇸🇬SG-v2raynplus
+  - 🇪🇪EE-v2raynplus
+  - 🇸🇨SC-v2raynplus
+  - 🇷🇺RU-v2raynplus
   - 🇻🇬VG-v2raynplus
+  - 🇸🇪SE-v2raynplus
   - 🇰🇿KZ-v2raynplus
-  - 🇺🇸US-v2roay
-  - 🇹🇷TR-v2roay
-  - 🇳🇱NL-v2roay
-  - 🇨🇾CY-v2roay
-  - 🇸🇨SC-v2roay
-  - 🇩🇪DE-v2roay
-  - 🇩🇰DK-v2roay
-  - 🇳🇴NO-v2roay
-  - 🇹🇼TW-v2roay
-  - 🇬🇧GB-v2roay
-  - 🇷🇺RU-v2roay
-  - 🇮🇪IE-v2roay
   - Domain-v2roay
-  - 🇦🇪AE-v2roay
-  - 🇪🇸ES-v2roay
-  - 🇭🇰HK-v2roay
-  - 🇮🇳IN-v2roay
-  - 🇱🇻LV-v2roay
-  - 🇸🇪SE-v2roay
-  - 🇫🇮FI-v2roay
-  - 🇬🇷GR-v2roay
-  - 🇺🇦UA-v2roay
+  - 🇯🇵JP-v2roay
+  - 🇺🇸US-v2roay
+  - 🇳🇱NL-v2roay
+  - 🇵🇱PL-v2roay
+  - 🇳🇴NO-v2roay
   - 🇫🇷FR-v2roay
-  - 🇨🇾CY-vpnbaz
+  - 🇬🇧GB-v2roay
+  - 🇱🇻LV-v2roay
+  - 🇩🇪DE-v2roay
+  - 🇬🇷GR-v2roay
+  - 🇪🇪EE-v2roay
+  - 🇸🇪SE-v2roay
+  - 🇭🇰HK-v2roay
+  - 🇰🇬KG-v2roay
+  - 🇦🇪AE-v2roay
+  - 🇷🇺RU-v2roay
+  - 🇸🇬SG-v2roay
+  - 🇮🇷IR-v2roay
+  - 🇹🇼TW-v2roay
+  - 🇰🇷KR-v2roay
+  - 🇺🇦UA-v2roay
   - Domain-vpnbaz
-  - 🇺🇸US-whitedns
-  - 🇬🇧GB-whitedns
+  - 🇦🇹AT-vpnbaz
+  - 🇵🇱PL-vpnbaz
+  - 🇪🇸ES-vpnbaz
+  - 🇸🇬SG-whitedns
+  - 🇨🇦CA-whitedns
   - 🇳🇱NL-whitedns
-  - 🇩🇪DE-whitedns
-  - 🇫🇷FR-whitedns
-  - 🇦🇪AE-whitedns
-  - 🇨🇭CH-whitedns
   - Domain-whitedns
-  - 🇸🇨SC-whitedns
-  - 🇿🇦ZA-whitedns
-  - 🇨🇿CZ-whitedns
+  - 🇬🇧GB-whitedns
+  - 🇺🇸US-whitedns
+  - 🇫🇷FR-whitedns
+  - 🇰🇷KR-whitedns
+  - 🇵🇱PL-whitedns
+  - 🇩🇪DE-whitedns
+  - 🇦🇹AT-whitedns
+  - 🇷🇺RU-whitedns
+  - 🇱🇹LT-whitedns
+  - 🇯🇵JP-whitedns
 - name: SELECT
   type: select
   proxies:
   - AUTO-IRAN
-  - 🇺🇸US-ConfigX2ray
-  - 🇳🇱NL-ConfigX2ray
-  - Domain-ConfigX2ray
-  - 🇨🇿CZ-ConfigX2ray
   - 🇹🇷TR-FreakConfig
-  - 🇮🇷IR-FreakConfig
-  - 🇯🇵JP-FreakConfig
+  - 🇳🇴NO-FreakConfig
   - Domain-FreakConfig
+  - 🇨🇭CH-FreakConfig
+  - 🇮🇷IR-FreakConfig
   - 🇳🇱NL-FreakConfig
-  - 🇺🇸US-FreakConfig
-  - 🇺🇸US-Maznet
   - 🇫🇮FI-Maznet
+  - 🇺🇸US-Maznet
   - 🇹🇷TR-Maznet
-  - 🇩🇪DE-NetAccount
-  - 🇸🇨SC-NetShot1
-  - Domain-NetShot1
-  - 🇳🇱NL-NetShot1
-  - 🇸🇬SG-NetShot1
   - 🇷🇴RO-NetShot1
-  - 🇺🇸US-artemisvpn1
-  - 🇭🇰HK-dingyue_center
+  - 🇸🇬SG-NetShot1
+  - Domain-NetShot1
+  - 🇦🇹AT-NetShot1
+  - 🇳🇱NL-NetShot1
+  - 🇸🇨SC-NetShot1
   - Domain-dingyue_center
-  - 🇷🇺RU-freevpnchina
-  - 🇸🇬SG-freevpnchina
-  - 🇳🇴NO-freevpnchina
-  - 🇩🇪DE-freevpnchina
-  - Domain-freevpnchina
-  - 🇳🇱NL-freevpnchina
-  - 🇫🇷FR-freevpnchina
-  - 🇬🇧GB-freevpnchina
-  - 🇪🇸ES-freevpnchina
-  - 🇸🇪SE-freevpnchina
-  - 🇺🇸US-freevpnchina
-  - 🇦🇪AE-freevpnchina
+  - 🇭🇰HK-dingyue_center
   - 🇯🇵JP-freevpnchina
-  - 🇹🇷TR-freevpnchina
+  - 🇬🇧GB-freevpnchina
+  - 🇸🇪SE-freevpnchina
+  - 🇳🇴NO-freevpnchina
   - 🇪🇪EE-freevpnchina
-  - 🇬🇷GR-freevpnchina
-  - 🇰🇷KR-freevpnchina
-  - 🇺🇦UA-freevpnchina
+  - 🇳🇱NL-freevpnchina
+  - 🇸🇬SG-freevpnchina
+  - 🇪🇸ES-freevpnchina
+  - Domain-freevpnchina
   - 🇫🇮FI-freevpnchina
-  - 🇱🇹LT-freevpnchina
+  - 🇩🇪DE-freevpnchina
   - 🇮🇳IN-freevpnchina
+  - 🇷🇺RU-freevpnchina
+  - 🇺🇦UA-freevpnchina
+  - 🇺🇸US-freevpnchina
+  - 🇰🇷KR-freevpnchina
   - 🇨🇾CY-freevpnchina
-  - 🇩🇰DK-freevpnchina
-  - 🇲🇩MD-freevpnchina
+  - 🇫🇷FR-freevpnchina
+  - 🇦🇪AE-freevpnchina
   - 🇭🇰HK-freevpnchina
-  - 🇹🇼TW-freevpnchina
-  - 🇨🇭CH-freevpnchina
-  - 🇱🇻LV-freevpnchina
-  - 🇦🇹AT-freevpnchina
+  - 🇩🇰DK-freevpnchina
+  - 🇱🇹LT-freevpnchina
+  - 🇬🇷GR-freevpnchina
   - 🇨🇿CZ-freevpnchina
+  - 🇦🇹AT-freevpnchina
+  - 🇲🇩MD-freevpnchina
+  - 🇨🇭CH-freevpnchina
   - Domain-new_mtproxi2
-  - 🇳🇱NL-oneclickvpnkeys
-  - 🇫🇷FR-oneclickvpnkeys
-  - 🇩🇪DE-oneclickvpnkeys
-  - 🇦🇪AE-oneclickvpnkeys
-  - 🇺🇸US-oneclickvpnkeys
-  - 🇮🇷IR-oneclickvpnkeys
   - 🇷🇺RU-oneclickvpnkeys
-  - 🇨🇾CY-oneclickvpnkeys
-  - 🇸🇨SC-oneclickvpnkeys
   - Domain-oneclickvpnkeys
+  - 🇩🇪DE-oneclickvpnkeys
+  - 🇨🇾CY-oneclickvpnkeys
   - 🇬🇧GB-oneclickvpnkeys
-  - 🇧🇬BG-oneclickvpnkeys
-  - 🇨🇿CZ-oneclickvpnkeys
+  - 🇨🇦CA-oneclickvpnkeys
+  - 🇳🇴NO-oneclickvpnkeys
+  - 🇺🇸US-oneclickvpnkeys
   - 🇦🇹AT-oneclickvpnkeys
+  - 🇪🇸ES-oneclickvpnkeys
+  - 🇫🇮FI-oneclickvpnkeys
   - 🇹🇷TR-oneclickvpnkeys
-  - 🇯🇵JP-tv2rayrr
-  - 🇳🇱NL-tv2rayrr
-  - Domain-tv2rayrr
-  - 🇨🇦CA-tv2rayrr
-  - 🇱🇻LV-tv2rayrr
-  - 🇷🇺RU-tv2rayrr
-  - 🇰🇿KZ-tv2rayrr
-  - 🇭🇰HK-tv2rayrr
-  - 🇷🇴RO-tv2rayrr
-  - 🇩🇪DE-tv2rayrr
-  - 🇦🇲AM-tv2rayrr
+  - 🇵🇱PL-persianvpnhub
   - 🇺🇸US-tv2rayrr
+  - Domain-tv2rayrr
+  - 🇳🇱NL-tv2rayrr
+  - 🇨🇦CA-tv2rayrr
+  - 🇷🇺RU-tv2rayrr
+  - 🇯🇵JP-tv2rayrr
+  - 🇭🇰HK-tv2rayrr
+  - 🇩🇪DE-tv2rayrr
+  - 🇱🇻LV-tv2rayrr
+  - 🇰🇿KZ-tv2rayrr
+  - 🇦🇲AM-tv2rayrr
+  - 🇷🇴RO-tv2rayrr
   - 🇷🇸RS-tv2rayrr
-  - 🇵🇱PL-v2cnf
-  - 🇸🇨SC-v2cnf
+  - 🇨🇾CY-v2cnf
+  - 🇩🇪DE-v2cnf
+  - 🇰🇿KZ-v2cnf
+  - 🇮🇷IR-v2cnf
+  - 🇭🇰HK-v2cnf
+  - 🇳🇱NL-v2cnf
+  - 🇫🇮FI-v2cnf
+  - 🇺🇸US-v2cnf
+  - 🇦🇪AE-v2cnf
   - Domain-v2cnf
   - 🇯🇵JP-v2cnf
-  - 🇫🇮FI-v2cnf
-  - 🇸🇬SG-v2cnf
-  - 🇺🇸US-v2cnf
-  - 🇨🇾CY-v2cnf
-  - 🇬🇧GB-v2cnf
-  - 🇨🇿CZ-v2cnf
-  - 🇳🇱NL-v2cnf
-  - 🇮🇷IR-v2cnf
+  - 🇸🇪SE-v2cnf
+  - 🇨🇦CA-v2cnf
   - 🇹🇷TR-v2cnf
-  - 🇩🇪DE-v2cnf
-  - 🇫🇷FR-v2cnf
+  - 🇳🇴NO-v2cnf
+  - 🇨🇭CH-v2cnf
   - 🇳🇱NL-v2ray_extractor
   - 🇺🇸US-v2ray_extractor
-  - 🇫🇷FR-v2ray_extractor
-  - 🇩🇪DE-v2ray_extractor
   - 🇱🇻LV-v2ray_extractor
+  - 🇩🇪DE-v2ray_extractor
+  - 🇫🇷FR-v2ray_extractor
   - Domain-v2ray_extractor
-  - 🇳🇱NL-v2raynplus
-  - Domain-v2raynplus
   - 🇺🇸US-v2raynplus
-  - 🇧🇷BR-v2raynplus
+  - Domain-v2raynplus
   - 🇩🇪DE-v2raynplus
-  - 🇸🇬SG-v2raynplus
-  - 🇫🇷FR-v2raynplus
-  - 🇸🇨SC-v2raynplus
-  - 🇨🇾CY-v2raynplus
-  - 🇵🇱PL-v2raynplus
-  - 🇨🇿CZ-v2raynplus
-  - 🇪🇪EE-v2raynplus
-  - 🇦🇪AE-v2raynplus
   - 🇬🇧GB-v2raynplus
-  - 🇸🇪SE-v2raynplus
-  - 🇷🇺RU-v2raynplus
+  - 🇳🇱NL-v2raynplus
+  - 🇵🇱PL-v2raynplus
+  - 🇪🇬EG-v2raynplus
+  - 🇨🇾CY-v2raynplus
   - 🇲🇩MD-v2raynplus
+  - 🇫🇷FR-v2raynplus
+  - 🇧🇷BR-v2raynplus
   - 🇨🇦CA-v2raynplus
+  - 🇦🇪AE-v2raynplus
+  - 🇸🇬SG-v2raynplus
+  - 🇪🇪EE-v2raynplus
+  - 🇸🇨SC-v2raynplus
+  - 🇷🇺RU-v2raynplus
   - 🇻🇬VG-v2raynplus
+  - 🇸🇪SE-v2raynplus
   - 🇰🇿KZ-v2raynplus
-  - 🇺🇸US-v2roay
-  - 🇹🇷TR-v2roay
-  - 🇳🇱NL-v2roay
-  - 🇨🇾CY-v2roay
-  - 🇸🇨SC-v2roay
-  - 🇩🇪DE-v2roay
-  - 🇩🇰DK-v2roay
-  - 🇳🇴NO-v2roay
-  - 🇹🇼TW-v2roay
-  - 🇬🇧GB-v2roay
-  - 🇷🇺RU-v2roay
-  - 🇮🇪IE-v2roay
   - Domain-v2roay
-  - 🇦🇪AE-v2roay
-  - 🇪🇸ES-v2roay
-  - 🇭🇰HK-v2roay
-  - 🇮🇳IN-v2roay
-  - 🇱🇻LV-v2roay
-  - 🇸🇪SE-v2roay
-  - 🇫🇮FI-v2roay
-  - 🇬🇷GR-v2roay
-  - 🇺🇦UA-v2roay
+  - 🇯🇵JP-v2roay
+  - 🇺🇸US-v2roay
+  - 🇳🇱NL-v2roay
+  - 🇵🇱PL-v2roay
+  - 🇳🇴NO-v2roay
   - 🇫🇷FR-v2roay
-  - 🇨🇾CY-vpnbaz
+  - 🇬🇧GB-v2roay
+  - 🇱🇻LV-v2roay
+  - 🇩🇪DE-v2roay
+  - 🇬🇷GR-v2roay
+  - 🇪🇪EE-v2roay
+  - 🇸🇪SE-v2roay
+  - 🇭🇰HK-v2roay
+  - 🇰🇬KG-v2roay
+  - 🇦🇪AE-v2roay
+  - 🇷🇺RU-v2roay
+  - 🇸🇬SG-v2roay
+  - 🇮🇷IR-v2roay
+  - 🇹🇼TW-v2roay
+  - 🇰🇷KR-v2roay
+  - 🇺🇦UA-v2roay
   - Domain-vpnbaz
-  - 🇺🇸US-whitedns
-  - 🇬🇧GB-whitedns
+  - 🇦🇹AT-vpnbaz
+  - 🇵🇱PL-vpnbaz
+  - 🇪🇸ES-vpnbaz
+  - 🇸🇬SG-whitedns
+  - 🇨🇦CA-whitedns
   - 🇳🇱NL-whitedns
-  - 🇩🇪DE-whitedns
-  - 🇫🇷FR-whitedns
-  - 🇦🇪AE-whitedns
-  - 🇨🇭CH-whitedns
   - Domain-whitedns
-  - 🇸🇨SC-whitedns
-  - 🇿🇦ZA-whitedns
-  - 🇨🇿CZ-whitedns
+  - 🇬🇧GB-whitedns
+  - 🇺🇸US-whitedns
+  - 🇫🇷FR-whitedns
+  - 🇰🇷KR-whitedns
+  - 🇵🇱PL-whitedns
+  - 🇩🇪DE-whitedns
+  - 🇦🇹AT-whitedns
+  - 🇷🇺RU-whitedns
+  - 🇱🇹LT-whitedns
+  - 🇯🇵JP-whitedns
   - DIRECT
 rule-providers:
   ir:
